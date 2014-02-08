@@ -2,7 +2,7 @@
 
 angular.module('vagrantlistApp').controller(
     'ListController',
-    function ($scope, $http, DebianBoxes) {
+    function ($scope, $http) {
 
         /**
          * An array of objects of the form { "name": "Debian", "slug": "debian" }
