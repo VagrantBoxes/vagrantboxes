@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Aegir-up Aegir",
+        "url": "http://ergonlogic.com/files/boxes/aegir-current.box",
+        "architecture": "64-bit",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.4"
+        },
+        "provider": "VirtualBox",
+        "size": "297 MB"
+    },
+    {
+        "name": "Aegir-up Debian",
+        "url": "http://ergonlogic.com/files/boxes/debian-current.box",
+        "architecture": "64-bit",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.4"
+        },
+        "provider": "VirtualBox",
+        "size": "283 MB"
+    },
+    {
+        "name": "Aegir-up LAMP",
+        "url": "http://ergonlogic.com/files/boxes/debian-LAMP-current.box",
+        "architecture": "64-bit",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.4"
+        },
+        "provider": "VirtualBox",
+        "size": "388 MB"
+    }
+]

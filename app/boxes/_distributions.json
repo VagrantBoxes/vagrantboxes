@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Debian",
+        "slug": "debian"
+    },
+    {
+        "name": "Ubuntu",
+        "slug": "ubuntu"
+    }
+]

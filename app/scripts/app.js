@@ -1,10 +1,10 @@
 'use strict';
 
 // create the app module
-var App = angular.module('vagrantlistApp', ['ngResource', 'ngRoute']);
+var AppModule = angular.module('vagrantlistApp', ['ngResource', 'ngRoute']);
 
 // configure the routes for the newly created module
-App.config(function ($routeProvider) {
+AppModule.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'views/list.html',
@@ -19,7 +19,7 @@ App.config(function ($routeProvider) {
 });
 
 // initialize the menu controller to change the 'active' state
-App.controller(
+AppModule.controller(
     'MenuController',
     function ($scope) {
 
@@ -57,3 +57,38 @@ App.controller(
         }
     }
 );
+
+AppModule.factory('DebianBoxes', function($http) {
+    var boxes = {};
+    boxes.query = function() {
+
+//        $http
+//            .get('boxes/debian.json')
+//            .success(function(data, status, headers, config) {
+//                console.log(data);
+//            });
+
+        return [
+            {
+                "name": "Aegir-up Aegir (Debian Squeeze 6.0.4 64-bit)",
+                "url": "http://ergonlogic.com/files/boxes/aegir-current.box",
+                "provider": "VirtualBox",
+                "size": "297 MB"
+            },
+            {
+                "name": "Aegir-up Debian (Debian Squeeze 6.0.4 64-bit)",
+                "url": "http://ergonlogic.com/files/boxes/debian-current.box",
+                "provider": "VirtualBox",
+                "size": "283 MB"
+            },
+            {
+                "name": "Aegir-up LAMP (Debian Squeeze 6.0.4 64-bit)",
+                "url": "http://ergonlogic.com/files/boxes/debian-LAMP-current.box",
+                "provider": "VirtualBox",
+                "size": "388 MB"
+            }
+        ];
+    };
+
+    return boxes;
+});
