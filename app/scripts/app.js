@@ -7,7 +7,7 @@ var App = angular.module('vagrantlistApp', ['ngResource', 'ngRoute']);
 App.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'views/main.html',
+            templateUrl: 'views/list.html',
             controller: 'ListController'
         })
         .when('/suggest', {
