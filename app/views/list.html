@@ -14,6 +14,21 @@
 </p>
 
 <table>
-    <tr ng-repeat="box in boxes"><td>{{box.name}}</td></tr>
+    <tr>
+        <th>Distribution</th>
+        <th>Architecture</th>
+        <th>Version</th>
+        <th>Provider</th>
+        <th>Box</th>
+        <th>URL</th>
+    </tr>
+    <tr ng-repeat="box in boxes">
+        <td>{{box.distribution.name}}</td>
+        <td>{{box.architecture}}</td>
+        <td>{{box.version.number}} ({{box.version.name}})</td>
+        <td>{{box.provider}}</td>
+        <td>{{box.name}} ({{box.size}})</td>
+        <td>{{box.url}}</td>
+    </tr>
 </table>
 
