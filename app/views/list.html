@@ -13,7 +13,13 @@
     available.
 </p>
 
-<table>
+<div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-primary active" ng-repeat="distro in distributions">
+        <input type="checkbox"> {{distro.name}}
+    </label>
+</div>
+
+<table class="table">
     <tr>
         <th>Distribution</th>
         <th>Architecture</th>

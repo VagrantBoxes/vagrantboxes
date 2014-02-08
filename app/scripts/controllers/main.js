@@ -3,11 +3,16 @@
 angular.module('vagrantlistApp').controller(
     'ListController',
     function ($scope, $http, DebianBoxes) {
+
+        $scope.distributions = [];
         $scope.boxes = [];
 
         $http
             .get('boxes/_distributions.json')
             .success(function(distributions, status, headers, config) {
+
+                $scope.distributions = distributions;
+
                 for(var i = 0; i < distributions.length; i++) {
                     var slug = distributions[i].slug;
                     $http
