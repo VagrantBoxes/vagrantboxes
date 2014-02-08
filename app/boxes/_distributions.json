@@ -4,8 +4,16 @@
         "slug": "archlinux"
     },
     {
+        "name": "CentOS",
+        "slug": "centos"
+    },
+    {
         "name": "Debian",
         "slug": "debian"
+    },
+    {
+        "name": "OpenBSD",
+        "slug": "openbsd"
     },
     {
         "name": "Ubuntu",
