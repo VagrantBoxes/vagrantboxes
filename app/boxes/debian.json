@@ -8,7 +8,30 @@
             "number": "6.0.4"
         },
         "provider": "VirtualBox",
-        "size": "297 MB"
+        "size": "297 MB",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "git": false
+        },
+        "source": "",
+        "comment": ""
     },
     {
         "name": "Aegir-up Debian",
@@ -19,7 +42,30 @@
             "number": "6.0.4"
         },
         "provider": "VirtualBox",
-        "size": "283 MB"
+        "size": "283 MB",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "git": false
+        },
+        "source": "",
+        "comment": ""
     },
     {
         "name": "Aegir-up LAMP",
@@ -30,6 +76,29 @@
             "number": "6.0.4"
         },
         "provider": "VirtualBox",
-        "size": "388 MB"
+        "size": "388 MB",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "git": false
+        },
+        "source": "",
+        "comment": ""
     }
 ]

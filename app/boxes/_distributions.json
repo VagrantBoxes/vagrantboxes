@@ -1,5 +1,9 @@
 [
     {
+        "name": "Arch Linux",
+        "slug": "archlinux"
+    },
+    {
         "name": "Debian",
         "slug": "debian"
     },
