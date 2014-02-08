@@ -28,7 +28,7 @@
         <th>Box</th>
         <th>URL</th>
     </tr>
-    <tr ng-repeat="box in boxes">
+    <tr ng-repeat="box in boxes" ng-show="show(box.distribution.slug)">
         <td>{{box.distribution.name}}</td>
         <td>{{box.architecture}}</td>
         <td>{{box.version.number}} ({{box.version.name}})</td>
