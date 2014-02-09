@@ -77,7 +77,9 @@
         <th>Box</th>
         <th>URL</th>
     </tr>
-    <tr ng-repeat="box in boxes" ng-show="isBoxVisible(box.distribution.slug, box.architecture, box.provider)">
+    <tr ng-repeat="box in boxes" ng-show="isBoxVisible(
+        box.distribution.slug, box.architecture, box.provider,
+        box.size)" >
         <td>{{box.distribution.name}}</td>
         <td>{{box.architecture}}</td>
         <td>{{box.version.number}} ({{box.version.name}})</td>

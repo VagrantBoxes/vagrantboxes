@@ -7,8 +7,8 @@ angular.module('vagrantlistApp').controller(
         /*##########################################################*/
         // A dirty hack to interact with a jquery-based ui element
         $('.slider')
-            .slider({ max: 3000, value: 0 })
-            .on('slideStop', function(event) {
+            .slider({ max: 3000, value: 3000 })
+            .on('slide', function(event) {
                 var slider_val = $(this).get(0).value;
                 $("#size_minmax_filter").val(slider_val).change();
             });
@@ -56,7 +56,7 @@ angular.module('vagrantlistApp').controller(
             },
             "minmax_show": {
                 min: 0,
-                max: 0
+                max: 3000
             }
         };
 
@@ -124,10 +124,12 @@ angular.module('vagrantlistApp').controller(
          * @param provider Provider name e.g. VirtualBox
          * @returns {boolean}
          */
-        $scope.isBoxVisible = function(distro, arch, provider) {
+        $scope.isBoxVisible = function(distro, arch, provider, size) {
+            console.log(parseInt(size));
             return $scope.distributions[distro].show
                 && $scope.architectures[arch].show
-                && $scope.providers[provider].show;
+                && $scope.providers[provider].show
+                && $scope.size.minmax_show.max >= parseInt(size);
         };
 
         /************************************************************/
