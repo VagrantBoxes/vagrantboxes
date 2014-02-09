@@ -109,7 +109,8 @@ angular.module('vagrantlistApp').controller(
         };
 
         /**
-         *
+         * Returns true if all of the show properties (for the distro,
+         * arch, provider, ...) are true
          * @param distro Distribution slug e.g. archlinux or debian
          * @param arch Architecture name e.g. 32-bit
          * @param provider Provider name e.g. VirtualBox
