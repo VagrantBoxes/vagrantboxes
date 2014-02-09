@@ -115,7 +115,9 @@ angular.module('vagrantlistApp').controller(
 
         /************************************************************/
         // Now the controller is bootstrapped by populating all
-        // necessary models and filters
+        // necessary models and filters. First we fetch a list of
+        // available distribitions and load them one after the other
+        // afterwards. All the models are populated asynchronously.
 
         $http
             .get('boxes/_distributions.json')
