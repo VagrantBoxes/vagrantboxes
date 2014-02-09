@@ -68,17 +68,6 @@
 <input id="size_minmax_filter" type="text" style="display: none;"
        ng-model="size.minmax_show.max" />
 
-<script>
-    $(document).ready(function() {
-        $('.slider')
-            .slider({ max: 3000, value: 0 })
-            .on('slideStop', function(event) {
-                var slider_val = $(this).get(0).value;
-                $("#size_minmax_filter").val(slider_val).change();
-            });
-    });
-</script>
-
 <table class="table">
     <tr>
         <th>Distribution</th>

@@ -4,6 +4,16 @@ angular.module('vagrantlistApp').controller(
     'ListController',
     function ($scope, $http) {
 
+        /*##########################################################*/
+        // A dirty hack to interact with a jquery-based ui element
+        $('.slider')
+            .slider({ max: 3000, value: 0 })
+            .on('slideStop', function(event) {
+                var slider_val = $(this).get(0).value;
+                $("#size_minmax_filter").val(slider_val).change();
+            });
+        /*##########################################################*/
+
         /**
          * An array with all the boxes fetched from the server
          * @type {Array}
