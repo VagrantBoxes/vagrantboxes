@@ -118,6 +118,26 @@ angular.module('vagrantlistApp').controller(
         };
 
         /************************************************************/
+        // Size models & filters
+
+        /**
+         * Stores the min/max values of the box sizes in the minmax
+         * sub-object and the user-defined sizes in the minmax_show
+         * sub-object to filter specific boxes.
+         * @type {Object}
+         */
+        $scope.size = {
+            "minmax": {
+                min: 0,
+                max: 0
+            },
+            "minmax_show": {
+                min: 0,
+                max: 0
+            }
+        };
+
+        /************************************************************/
         // Some helpers
 
         /**
