@@ -13,10 +13,24 @@
     available.
 </p>
 
-<div class="btn-group" data-toggle="buttons">
-    <label class="btn btn-primary active" ng-repeat="distro in distributions">
-        <input type="checkbox"> {{distro.name}}
-    </label>
+<!-- doesn't work -->
+<!--<div class="btn-group" data-toggle="buttons">-->
+    <!--<label class="btn btn-primary active" ng-repeat="distro in distributions">-->
+        <!--<input checked type="checkbox" ng-click="toggle_distro_visibility(distro.slug)"> {{distro.name}}-->
+    <!--</label>-->
+<!--</div>-->
+
+<!-- works -->
+<div>
+    <span ng-repeat="distro in distributions">
+        <input checked  type="checkbox" ng-click="toggle_distro_visibility(distro.slug)"> {{distro.name}}
+    </span>
+</div>
+
+<div>
+    <span ng-repeat="arch in architectures">
+        <input checked  type="checkbox" ng-click="toggle_arch_visibility(arch)"> {{arch}}
+    </span>
 </div>
 
 <table class="table">
@@ -28,7 +42,7 @@
         <th>Box</th>
         <th>URL</th>
     </tr>
-    <tr ng-repeat="box in boxes" ng-show="show(box.distribution.slug)">
+    <tr ng-repeat="box in boxes" ng-show="isDistroVisible(box.distribution.slug)">
         <td>{{box.distribution.name}}</td>
         <td>{{box.architecture}}</td>
         <td>{{box.version.number}} ({{box.version.name}})</td>
