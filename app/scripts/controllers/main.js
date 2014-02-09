@@ -6,12 +6,24 @@ angular.module('vagrantlistApp').controller(
 
         /*##########################################################*/
         // A dirty hack to interact with a jquery-based ui element
-        $('.slider')
-            .slider({ max: 3000, value: 3000 })
-            .on('slide', function(event) {
-                var slider_val = $(this).get(0).value;
-                $("#size_minmax_filter").val(slider_val).change();
-            });
+        (function(){
+            var slider_width = 600;
+
+            $('.slider')
+                .slider({ max: 3000, value: 3000 })
+                .on('slide', function(event) {
+                    var slider_val = $(this).get(0).value;
+                    $("#size_minmax_filter").val(slider_val).change();
+                })
+                .css('width', slider_width + 'px');
+
+            $('.slider-horizontal').css('width', slider_width + 'px');
+
+            var tooltip = $('.slider .tooltip').eq(0);
+            var tooltip_width = parseInt(tooltip.css('width'));
+            var offset = tooltip_width/2;
+            tooltip.css('left', (slider_width-offset) + 'px');
+        })();
         /*##########################################################*/
 
         /**
@@ -125,7 +137,6 @@ angular.module('vagrantlistApp').controller(
          * @returns {boolean}
          */
         $scope.isBoxVisible = function(distro, arch, provider, size) {
-            console.log(parseInt(size));
             return $scope.distributions[distro].show
                 && $scope.architectures[arch].show
                 && $scope.providers[provider].show

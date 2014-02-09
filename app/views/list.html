@@ -48,26 +48,27 @@
     </div>
 </p>
 
+<p>
+    <div class="slider" style="width: 140px;">
+        <div class="slider-track">
+            <div class="slider-handle round" style="left: 50%;"></div>
+        </div>
 
-<div class="slider" style="width: 140px;">
-    <div class="slider-track">
-        <div class="slider-handle round" style="left: 50%;"></div>
+        <input id="sl1" type="text" class="span2" style="width: 600px"
+               data-slider-orientation="horizontal"
+               data-slider-selection="after"
+               data-slider-tooltip="hide">
     </div>
 
-    <input id="sl1" type="text" class="span2"
-           data-slider-orientation="horizontal"
-           data-slider-selection="after"
-           data-slider-tooltip="hide">
-</div>
-
-<!--
-    This input is just a hack to build a bridge between jquery and angularjs.
-    An input of the type 'hidden' didn't work as a bridge so we use a text
-    input and hide via css.
--->
-<input id="size_minmax_filter" type="text" style="display: none;"
-       ng-model="size.minmax_show.max" />
-
+    <!--
+        This input is just a hack to build a bridge between jquery and angularjs.
+        An input of the type 'hidden' didn't work as a bridge so we use a text
+        input and hide via css.
+    -->
+    <input id="size_minmax_filter" type="text" style="display: none;"
+           ng-model="size.minmax_show.max" />
+</p>
+        
 <table class="table">
     <tr>
         <th>Distribution</th>
