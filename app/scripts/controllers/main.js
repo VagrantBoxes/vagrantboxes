@@ -19,10 +19,6 @@ angular.module('vagrantlistApp').controller(
          */
         $scope.distributions = {};
 
-        $scope.toggle_distro_visibility = function(slug) {
-            $scope.distributions[slug].show = ! $scope.distributions[slug].show;
-        };
-
         /************************************************************/
         // Architecture models & filters
 
@@ -33,10 +29,6 @@ angular.module('vagrantlistApp').controller(
          */
         $scope.architectures = {};
 
-        $scope.toggle_arch_visibility = function(arch) {
-            $scope.architectures[arch].show = ! $scope.architectures[arch].show;
-        };
-
         /************************************************************/
         // Provider models & filters
 
@@ -46,10 +38,6 @@ angular.module('vagrantlistApp').controller(
          * @type {Object}
          */
         $scope.providers = {};
-
-        $scope.toggle_provider_visibility = function(provider) {
-            $scope.providers[provider].show = ! $scope.providers[provider].show;
-        };
 
         /************************************************************/
         // Size models & filters

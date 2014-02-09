@@ -23,19 +23,19 @@
 <!-- works -->
 <div>
     <span ng-repeat="distro in distributions">
-        <input checked  type="checkbox" ng-click="toggle_distro_visibility(distro.slug)"> {{distro.name}}
+        <input checked  type="checkbox" ng-model="distro.show"> {{distro.name}}
     </span>
 </div>
 
 <div>
     <span ng-repeat="arch in architectures">
-        <input checked  type="checkbox" ng-click="toggle_arch_visibility(arch.name)"> {{arch.name}}
+        <input checked  type="checkbox" ng-model="arch.show"> {{arch.name}}
     </span>
 </div>
 
 <div>
     <span ng-repeat="provider in providers">
-        <input checked  type="checkbox" ng-click="toggle_provider_visibility(provider.name)"> {{provider.name}}
+        <input checked  type="checkbox" ng-model="provider.show"> {{provider.name}}
     </span>
 </div>
 
