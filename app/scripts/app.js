@@ -1,7 +1,7 @@
 'use strict';
 
 // create the app module
-var AppModule = angular.module('vagrantlistApp', ['ngResource', 'ngRoute']);
+var AppModule = angular.module('vagrantlistApp', ['ui.bootstrap', 'ngResource', 'ngRoute']);
 
 // configure the routes for the newly created module
 AppModule.config(function ($routeProvider) {

@@ -13,31 +13,41 @@
     available.
 </p>
 
-<!-- doesn't work -->
-<!--<div class="btn-group" data-toggle="buttons">-->
-    <!--<label class="btn btn-primary active" ng-repeat="distro in distributions">-->
-        <!--<input checked type="checkbox" ng-click="toggle_distro_visibility(distro.slug)"> {{distro.name}}-->
-    <!--</label>-->
-<!--</div>-->
+<p>
+    <!--<div>-->
+        <!--<span ng-repeat="distro in distributions">-->
+            <!--<input checked  type="checkbox" ng-model="distro.show"> {{distro.name}}-->
+        <!--</span>-->
+    <!--</div>-->
 
-<!-- works -->
-<div>
-    <span ng-repeat="distro in distributions">
-        <input checked  type="checkbox" ng-model="distro.show"> {{distro.name}}
-    </span>
-</div>
+    <div class="btn-group" >
+        <button ng-repeat="distro in distributions" type="button" class="btn btn-primary" ng-model="distro.show" btn-checkbox>{{distro.name}}</button>
+    </div>
+</p>
 
-<div>
-    <span ng-repeat="arch in architectures">
-        <input checked  type="checkbox" ng-model="arch.show"> {{arch.name}}
-    </span>
-</div>
+<p>
+    <!--<div>-->
+        <!--<span ng-repeat="arch in architectures">-->
+            <!--<input checked  type="checkbox" ng-model="arch.show"> {{arch.name}}-->
+        <!--</span>-->
+    <!--</div>-->
 
-<div>
-    <span ng-repeat="provider in providers">
-        <input checked  type="checkbox" ng-model="provider.show"> {{provider.name}}
-    </span>
-</div>
+    <div class="btn-group" >
+        <button ng-repeat="arch in architectures" type="button" class="btn btn-primary" ng-model="arch.show" btn-checkbox>{{arch.name}}</button>
+    </div>
+</p>
+
+<p>
+    <!--<div>-->
+        <!--<span ng-repeat="provider in providers">-->
+            <!--<input checked  type="checkbox" ng-model="provider.show"> {{provider.name}}-->
+        <!--</span>-->
+    <!--</div>-->
+    <div class="btn-group" >
+        <button ng-repeat="provider in providers" type="button" class="btn btn-primary" ng-model="provider.show" btn-checkbox>{{provider.name}}</button>
+    </div>
+</p>
+
 
 <!--<input type="text" class="span2" value=""-->
        <!--data-slider-min="{{size.minmax.min}}"-->
