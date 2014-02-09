@@ -42,13 +42,20 @@ angular.module('vagrantlistApp').controller(
         $scope.size = {
             "minmax": {
                 min: 0,
-                max: 0
+                max: 3000
             },
             "minmax_show": {
                 min: 0,
                 max: 0
             }
         };
+
+        // for debugging/testing purposes
+//        $scope.$watch(
+//            'size.minmax_show.max',
+//            function(new_value, old_value) {
+//                console.log(new_value);
+//        });
 
         /************************************************************/
         // Some helpers

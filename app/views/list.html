@@ -49,14 +49,35 @@
 </p>
 
 
-<!--<input type="text" class="span2" value=""-->
-       <!--data-slider-min="{{size.minmax.min}}"-->
-       <!--data-slider-max="{{size.minmax.max}}"-->
-       <!--data-slider-step="1"-->
-       <!--data-slider-value="{{size.minmax.max}}"-->
-       <!--data-slider-orientation="horizontal"-->
-       <!--data-slider-selection="after"-->
-       <!--data-slider-tooltip="hide">-->
+<div class="slider" style="width: 140px;">
+    <div class="slider-track">
+        <div class="slider-handle round" style="left: 50%;"></div>
+    </div>
+
+    <input id="sl1" type="text" class="span2"
+           data-slider-orientation="horizontal"
+           data-slider-selection="after"
+           data-slider-tooltip="hide">
+</div>
+
+<!--
+    This input is just a hack to build a bridge between jquery and angularjs.
+    An input of the type 'hidden' didn't work as a bridge so we use a text
+    input and hide via css.
+-->
+<input id="size_minmax_filter" type="text" style="display: none;"
+       ng-model="size.minmax_show.max" />
+
+<script>
+    $(document).ready(function() {
+        $('.slider')
+            .slider({ max: 3000, value: 0 })
+            .on('slideStop', function(event) {
+                var slider_val = $(this).get(0).value;
+                $("#size_minmax_filter").val(slider_val).change();
+            });
+    });
+</script>
 
 <table class="table">
     <tr>
