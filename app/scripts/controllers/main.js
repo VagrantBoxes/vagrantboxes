@@ -15,6 +15,14 @@ angular.module('vagrantlistApp').controller(
          * @type {Array}
          */
         $scope.architectures = [];
+
+        /**
+         * Boxes with these architectures should be displayed
+         * while all the others are hidden.
+         * @type {Array}
+         */
+        var architectures_show = [];
+
         /**
          * An array with all the boxes fetched from the server
          * @type {Array}
@@ -48,13 +56,36 @@ angular.module('vagrantlistApp').controller(
         };
 
         /**
+         * Returns true if the given arch is visible else false
+         * @param arch
+         * @returns {boolean}
+         */
+        $scope.isArchVisible = function(arch) {
+            return -1 !== architectures_show.indexOf(arch);
+        };
+
+        $scope.toggle_arch_visibility = function(arch) {
+
+            if($scope.isArchVisible(arch)) {
+                var pos = architectures_show.indexOf(arch);
+                architectures_show.splice(pos, 1);
+            }
+            else {
+                architectures_show.push(arch);
+            }
+        };
+
+        /**
          * Adds an architecture to the architecture array if it doesn't
-         * exist yet.
+         * exist yet. The architecture is flagged being visible at the
+         * same time.
          * @param arch
          */
         var add_architecture = function(arch) {
-            if(-1 == $scope.architectures.indexOf(arch))
+            if(-1 == $scope.architectures.indexOf(arch)) {
                 $scope.architectures.push(arch);
+                architectures_show.push(arch);
+            }
         };
 
         /**
