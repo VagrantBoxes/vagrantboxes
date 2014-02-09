@@ -5,29 +5,19 @@ angular.module('vagrantlistApp').controller(
     function ($scope, $http) {
 
         /**
-         * An array of objects of the form { "name": "Debian", "slug": "debian" }
-         * @type {Array}
-         */
-        $scope.distributions = [];
-
-        /**
-         * Array of available architectures (32-bit, 64-bit, ...)
-         * @type {Array}
-         */
-        $scope.architectures = [];
-
-        /**
-         * Boxes with these architectures should be displayed
-         * while all the others are hidden.
-         * @type {Array}
-         */
-        var architectures_show = [];
-
-        /**
          * An array with all the boxes fetched from the server
          * @type {Array}
          */
         $scope.boxes = [];
+
+        /************************************************************/
+        // Distribution models & filters
+
+        /**
+         * An array of objects of the form { "name": "Debian", "slug": "debian" }
+         * @type {Array}
+         */
+        $scope.distributions = [];
 
         /**
          * Distributions that should be displayed
@@ -55,6 +45,22 @@ angular.module('vagrantlistApp').controller(
             }
         };
 
+        /************************************************************/
+        // Architecture models & filters
+
+        /**
+         * Array of available architectures (32-bit, 64-bit, ...)
+         * @type {Array}
+         */
+        $scope.architectures = [];
+
+        /**
+         * Boxes with these architectures should be displayed
+         * while all the others are hidden.
+         * @type {Array}
+         */
+        var architectures_show = [];
+
         /**
          * Returns true if the given arch is visible else false
          * @param arch
@@ -74,6 +80,9 @@ angular.module('vagrantlistApp').controller(
                 architectures_show.push(arch);
             }
         };
+
+        /************************************************************/
+        // Some helpers
 
         /**
          * Adds an architecture to the architecture array if it doesn't
@@ -98,6 +107,10 @@ angular.module('vagrantlistApp').controller(
             box.distribution = distro;
             $scope.boxes.push(box);
         };
+
+        /************************************************************/
+        // Now the controller is bootstrapped by populating all
+        // necessary models and filters
 
         $http
             .get('boxes/_distributions.json')
