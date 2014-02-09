@@ -1,0 +1,70 @@
+[
+    {
+        "name": "CentOS",
+        "url": "http://yum.mnxsolutions.com/vagrant/centos_56_32.box",
+        "architecture": "32-bit",
+        "version": {
+            "name": "",
+            "number": "5.6"
+        },
+        "provider": "VirtualBox",
+        "size": "804 MB",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "git": false
+        },
+        "source": "",
+        "comment": ""
+    },
+    {
+        "name": "CentOS",
+        "url": "https://dl.dropbox.com/u/7196/vagrant/CentOS-56-x64-packages-puppet-2.6.10-chef-0.10.6.box",
+        "architecture": "64-bit",
+        "version": {
+            "name": "",
+            "number": "5.6"
+        },
+        "provider": "VirtualBox",
+        "size": "420 MB",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "git": false
+        },
+        "source": "",
+        "comment": ""
+    }
+]

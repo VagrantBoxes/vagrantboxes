@@ -1,0 +1,36 @@
+[
+    {
+        "name": "OpenBSD",
+        "url": "https://dl.dropboxusercontent.com/u/12089300/VirtualBox/openbsd53_amd64_vagrant12.box",
+        "architecture": "64-bit",
+        "version": {
+            "name": "",
+            "number": "5.3"
+        },
+        "provider": "VirtualBox",
+        "size": "296 MB",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "git": false
+        },
+        "source": "",
+        "comment": ""
+    }
+]
