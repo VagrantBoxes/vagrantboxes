@@ -14,16 +14,10 @@ angular.module('vagrantlistApp').controller(
         // Distribution models & filters
 
         /**
-         * An array of objects of the form { "name": "Debian", "slug": "debian" }
+         * Object of the form { debian: { name: "Debian", slug: "debian", show: true } }
          * @type {Array}
          */
-        $scope.distributions = [];
-
-        /**
-         * Distributions that should be displayed
-         * @type {Array}
-         */
-        var distributions_slug_show = [];
+        $scope.distributions = {};
 
         /**
          * Returns true if the distro with the given slug is visible
@@ -32,16 +26,15 @@ angular.module('vagrantlistApp').controller(
          * @returns {boolean}
          */
         $scope.isDistroVisible = function(slug) {
-            return -1 !== distributions_slug_show.indexOf(slug);
+            return $scope.distributions[slug].show;
         };
 
         $scope.toggle_distro_visibility = function(slug) {
             if($scope.isDistroVisible(slug)) {
-                var pos = distributions_slug_show.indexOf(slug);
-                distributions_slug_show.splice(pos, 1);
+                $scope.distributions[slug].show = false;
             }
             else {
-                distributions_slug_show.push(slug);
+                $scope.distributions[slug].show = true;
             }
         };
 
@@ -177,6 +170,12 @@ angular.module('vagrantlistApp').controller(
             }
         };
 
+        $scope.isBoxVisible = function(distro, arch, provider) {
+            return $scope.isDistroVisible(distro)
+                && $scope.isArchVisible(arch)
+                && $scope.isProviderVisible(provider);
+        };
+
         /************************************************************/
         // Now the controller is bootstrapped by populating all
         // necessary models and filters
@@ -191,8 +190,8 @@ angular.module('vagrantlistApp').controller(
 
                     var slug = distributions[i].slug;
 
-                    // initially every distro will be shown
-                    distributions_slug_show.push(slug);
+                    $scope.distributions[slug] = distributions[i];
+                    $scope.distributions[slug].show = true;
 
                     // now populate the boxes array while the distribtion
                     // information will be merged into the jsons returned
