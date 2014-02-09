@@ -29,13 +29,13 @@
 
 <div>
     <span ng-repeat="arch in architectures">
-        <input checked  type="checkbox" ng-click="toggle_arch_visibility(arch)"> {{arch}}
+        <input checked  type="checkbox" ng-click="toggle_arch_visibility(arch.name)"> {{arch.name}}
     </span>
 </div>
 
 <div>
     <span ng-repeat="provider in providers">
-        <input checked  type="checkbox" ng-click="toggle_provider_visibility(provider)"> {{provider}}
+        <input checked  type="checkbox" ng-click="toggle_provider_visibility(provider.name)"> {{provider.name}}
     </span>
 </div>
 

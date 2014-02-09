@@ -15,99 +15,40 @@ angular.module('vagrantlistApp').controller(
 
         /**
          * Object of the form { debian: { name: "Debian", slug: "debian", show: true } }
-         * @type {Array}
+         * @type {Object}
          */
         $scope.distributions = {};
 
-        /**
-         * Returns true if the distro with the given slug is visible
-         * else false
-         * @param slug
-         * @returns {boolean}
-         */
-        $scope.isDistroVisible = function(slug) {
-            return $scope.distributions[slug].show;
-        };
-
         $scope.toggle_distro_visibility = function(slug) {
-            if($scope.isDistroVisible(slug)) {
-                $scope.distributions[slug].show = false;
-            }
-            else {
-                $scope.distributions[slug].show = true;
-            }
+            $scope.distributions[slug].show = ! $scope.distributions[slug].show;
         };
 
         /************************************************************/
         // Architecture models & filters
 
         /**
-         * Array of available architectures (32-bit, 64-bit, ...)
-         * @type {Array}
+         * Object of available architectures (32-bit, 64-bit, ...)
+         * It has the form of { 32-bit: { name: "32-bit", show: true } }
+         * @type {Object}
          */
-        $scope.architectures = [];
-
-        /**
-         * Boxes with these architectures should be displayed
-         * while all the others are hidden.
-         * @type {Array}
-         */
-        var architectures_show = [];
-
-        /**
-         * Returns true if the given arch is visible else false
-         * @param arch
-         * @returns {boolean}
-         */
-        $scope.isArchVisible = function(arch) {
-            return -1 !== architectures_show.indexOf(arch);
-        };
+        $scope.architectures = {};
 
         $scope.toggle_arch_visibility = function(arch) {
-
-            if($scope.isArchVisible(arch)) {
-                var pos = architectures_show.indexOf(arch);
-                architectures_show.splice(pos, 1);
-            }
-            else {
-                architectures_show.push(arch);
-            }
+            $scope.architectures[arch].show = ! $scope.architectures[arch].show;
         };
 
         /************************************************************/
         // Provider models & filters
 
         /**
-         * Array of available providers (VirtualBox, VMWare, ...)
-         * @type {Array}
+         * Object of available providers (VirtualBox, VMWare, ...)
+         * It has the form of { VirtualBox: { name: "VirtualBox", show: true } }
+         * @type {Object}
          */
-        $scope.providers = [];
-
-        /**
-         * Boxes with these providers should be displayed
-         * while all the others are hidden.
-         * @type {Array}
-         */
-        var providers_show = [];
-
-        /**
-         * Returns true if the given provider is visible else false
-         * @param provider
-         * @returns {boolean}
-         */
-        $scope.isProviderVisible = function(provider) {
-            return -1 !== providers_show.indexOf(provider);
-        };
+        $scope.providers = {};
 
         $scope.toggle_provider_visibility = function(provider) {
-
-            if($scope.isProviderVisible(provider)) {
-                var pos = providers_show.indexOf(provider);
-                providers_show.splice(pos, 1);
-            }
-            else {
-                providers_show.push(provider);
-            }
+            $scope.providers[provider].show = ! $scope.providers[provider].show;
         };
 
         /************************************************************/
@@ -134,15 +75,26 @@ angular.module('vagrantlistApp').controller(
         // Some helpers
 
         /**
-         * Adds an architecture to the architecture array if it doesn't
-         * exist yet. The architecture is flagged being visible at the
-         * same time.
+         * Adds an architecture to the architectures object if it doesn't
+         * exist yet. The architecture is flagged visible at the same time.
          * @param arch
          */
         var add_architecture = function(arch) {
-            if(-1 == $scope.architectures.indexOf(arch)) {
-                $scope.architectures.push(arch);
-                architectures_show.push(arch);
+            if(! $scope.architectures.hasOwnProperty(arch)) {
+                $scope.architectures[arch] = { name: arch, show: true };
+            }
+        };
+
+        /**
+         * Adds a distribution to the distributions object if it doesn't
+         * exist yet. The distribution is flagged visible at the same time.
+         * @param distro
+         */
+        var add_distro = function(distro) {
+            var slug = distro.slug;
+            if(! $scope.distributions.hasOwnProperty(slug)) {
+                $scope.distributions[slug] = distro;
+                $scope.distributions[slug].show = true;
             }
         };
 
@@ -158,22 +110,27 @@ angular.module('vagrantlistApp').controller(
         };
 
         /**
-         * Adds a provider to the provider array if it doesn't
-         * exist yet. The provider is flagged being visible at the
-         * same time.
+         * Adds a provider to the providers object if it doesn't
+         * exist yet. The provider is flagged visible at the same time.
          * @param provider
          */
         var add_provider = function(provider) {
-            if(-1 == $scope.providers.indexOf(provider)) {
-                $scope.providers.push(provider);
-                providers_show.push(provider);
+            if(! $scope.providers.hasOwnProperty(provider)) {
+                $scope.providers[provider] = { name: provider, show: true };
             }
         };
 
+        /**
+         *
+         * @param distro Distribution slug e.g. archlinux or debian
+         * @param arch Architecture name e.g. 32-bit
+         * @param provider Provider name e.g. VirtualBox
+         * @returns {boolean}
+         */
         $scope.isBoxVisible = function(distro, arch, provider) {
-            return $scope.isDistroVisible(distro)
-                && $scope.isArchVisible(arch)
-                && $scope.isProviderVisible(provider);
+            return $scope.distributions[distro].show
+                && $scope.architectures[arch].show
+                && $scope.providers[provider].show;
         };
 
         /************************************************************/
@@ -190,8 +147,7 @@ angular.module('vagrantlistApp').controller(
 
                     var slug = distributions[i].slug;
 
-                    $scope.distributions[slug] = distributions[i];
-                    $scope.distributions[slug].show = true;
+                    add_distro(distributions[i]);
 
                     // now populate the boxes array while the distribtion
                     // information will be merged into the jsons returned
