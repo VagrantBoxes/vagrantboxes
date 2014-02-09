@@ -11,16 +11,13 @@ angular.module('vagrantlistApp').controller(
         $scope.boxes = [];
 
         /************************************************************/
-        // Distribution models & filters
+        // Models
 
         /**
          * Object of the form { debian: { name: "Debian", slug: "debian", show: true } }
          * @type {Object}
          */
         $scope.distributions = {};
-
-        /************************************************************/
-        // Architecture models & filters
 
         /**
          * Object of available architectures (32-bit, 64-bit, ...)
@@ -29,18 +26,12 @@ angular.module('vagrantlistApp').controller(
          */
         $scope.architectures = {};
 
-        /************************************************************/
-        // Provider models & filters
-
         /**
          * Object of available providers (VirtualBox, VMWare, ...)
          * It has the form of { VirtualBox: { name: "VirtualBox", show: true } }
          * @type {Object}
          */
         $scope.providers = {};
-
-        /************************************************************/
-        // Size models & filters
 
         /**
          * Stores the min/max values of the box sizes in the minmax
