@@ -33,6 +33,12 @@
     </span>
 </div>
 
+<div>
+    <span ng-repeat="provider in providers">
+        <input checked  type="checkbox" ng-click="toggle_provider_visibility(provider)"> {{provider}}
+    </span>
+</div>
+
 <table class="table">
     <tr>
         <th>Distribution</th>
@@ -42,7 +48,7 @@
         <th>Box</th>
         <th>URL</th>
     </tr>
-    <tr ng-repeat="box in boxes" ng-show="isDistroVisible(box.distribution.slug) && isArchVisible(box.architecture)">
+    <tr ng-repeat="box in boxes" ng-show="isDistroVisible(box.distribution.slug) && isArchVisible(box.architecture) && isProviderVisible(box.provider)">
         <td>{{box.distribution.name}}</td>
         <td>{{box.architecture}}</td>
         <td>{{box.version.number}} ({{box.version.name}})</td>

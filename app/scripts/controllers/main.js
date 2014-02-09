@@ -82,6 +82,42 @@ angular.module('vagrantlistApp').controller(
         };
 
         /************************************************************/
+        // Provider models & filters
+
+        /**
+         * Array of available providers (VirtualBox, VMWare, ...)
+         * @type {Array}
+         */
+        $scope.providers = [];
+
+        /**
+         * Boxes with these providers should be displayed
+         * while all the others are hidden.
+         * @type {Array}
+         */
+        var providers_show = [];
+
+        /**
+         * Returns true if the given provider is visible else false
+         * @param provider
+         * @returns {boolean}
+         */
+        $scope.isProviderVisible = function(provider) {
+            return -1 !== providers_show.indexOf(provider);
+        };
+
+        $scope.toggle_provider_visibility = function(provider) {
+
+            if($scope.isProviderVisible(provider)) {
+                var pos = providers_show.indexOf(provider);
+                providers_show.splice(pos, 1);
+            }
+            else {
+                providers_show.push(provider);
+            }
+        };
+
+        /************************************************************/
         // Some helpers
 
         /**
@@ -106,6 +142,19 @@ angular.module('vagrantlistApp').controller(
         var add_box = function(distro, box) {
             box.distribution = distro;
             $scope.boxes.push(box);
+        };
+
+        /**
+         * Adds a provider to the provider array if it doesn't
+         * exist yet. The provider is flagged being visible at the
+         * same time.
+         * @param provider
+         */
+        var add_provider = function(provider) {
+            if(-1 == $scope.providers.indexOf(provider)) {
+                $scope.providers.push(provider);
+                providers_show.push(provider);
+            }
         };
 
         /************************************************************/
@@ -136,6 +185,7 @@ angular.module('vagrantlistApp').controller(
                                     for(var i = 0; i < boxes.length; i++) {
                                         add_box(distribution, boxes[i]);
                                         add_architecture(boxes[i].architecture);
+                                        add_provider(boxes[i].provider);
                                     }
                                 }
                             }(distributions[i]))
