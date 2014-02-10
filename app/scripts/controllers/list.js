@@ -2,7 +2,7 @@
 
 angular.module('vagrantlistApp').controller(
     'ListController',
-    function ($scope, $http) {
+    function ($scope, $http, BoxDistributions) {
 
         /*##########################################################*/
         // A dirty hack to interact with a jquery-based ui element
@@ -149,35 +149,33 @@ angular.module('vagrantlistApp').controller(
         // available distribitions and load them one after the other
         // afterwards. All the models are populated asynchronously.
 
-        $http
-            .get('boxes/_distributions.json')
-            .success(function(distributions, status, headers, config) {
+        BoxDistributions.getDistros().then(function(distributions) {
 
-                $scope.distributions = distributions;
+            $scope.distributions = distributions;
 
-                for(var i = 0; i < distributions.length; i++) {
+            for(var i = 0; i < distributions.length; i++) {
 
-                    var slug = distributions[i].slug;
+                var slug = distributions[i].slug;
 
-                    add_distro(distributions[i]);
+                add_distro(distributions[i]);
 
-                    // now populate the boxes array while the distribtion
-                    // information will be merged into the jsons returned
-                    // by the server
-                    $http
-                        .get('boxes/' + slug + '.json')
-                        .success(
-                            (function(distribution){
-                                return function(boxes, status, headers, config) {
-                                    for(var i = 0; i < boxes.length; i++) {
-                                        add_box(distribution, boxes[i]);
-                                        add_architecture(boxes[i].architecture);
-                                        add_provider(boxes[i].provider);
-                                    }
+                // now populate the boxes array while the distribtion
+                // information will be merged into the jsons returned
+                // by the server
+                $http
+                    .get('boxes/' + slug + '.json', {cache: true})
+                    .success(
+                        (function(distribution){
+                            return function(boxes, status, headers, config) {
+                                for(var i = 0; i < boxes.length; i++) {
+                                    add_box(distribution, boxes[i]);
+                                    add_architecture(boxes[i].architecture);
+                                    add_provider(boxes[i].provider);
                                 }
-                            }(distributions[i]))
-                        );
-                }
-            });
+                            }
+                        }(distributions[i]))
+                    );
+            }
+        });
     }
 );

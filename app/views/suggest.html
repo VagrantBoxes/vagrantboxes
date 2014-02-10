@@ -1,1 +1,8 @@
-Suggestions
+<p>
+    <div class="btn-group" >
+        <button ng-repeat="distro in distributions" type="button"
+                class="btn btn-default"
+                ng-model="distro.show"
+                btn-checkbox>{{distro.name}}</button>
+    </div>
+</p>
