@@ -117,3 +117,44 @@ services.factory('BoxProviders', function($q, $http, VagrantBoxes) {
         getProviders: getProviders
     };
 });
+
+services.factory('BoxTemplate', function() {
+    return {
+        "name": "",
+        "url": "",
+        "architecture": "",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "provider": "",
+        "size": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "source": "",
+        "comment": ""
+    };
+});
