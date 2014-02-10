@@ -6,3 +6,21 @@
                 btn-checkbox>{{distro.name}}</button>
     </div>
 </p>
+
+<p>
+<div class="btn-group" >
+    <button ng-repeat="arch in architectures" type="button"
+            class="btn btn-default"
+            ng-model="arch.show"
+            btn-checkbox>{{arch.name}}</button>
+</div>
+</p>
+
+<p>
+<div class="btn-group" >
+    <button ng-repeat="provider in providers" type="button"
+            class="btn btn-default"
+            ng-model="provider.show"
+            btn-checkbox>{{provider.name}}</button>
+</div>
+</p>

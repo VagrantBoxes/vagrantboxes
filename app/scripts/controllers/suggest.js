@@ -6,15 +6,27 @@ angular.module('vagrantlistApp').controller(
               BoxDistributions, VagrantBoxes, BoxArchitectures, BoxProviders) {
 
         $scope.distributions = {};
+        $scope.architectures = {};
+        $scope.providers = {};
 
         BoxArchitectures.getArchitectures().then(function(archs) {
-            // TODO: provide radio buttons and a text field for another arch
-            //console.log(archs);
+            for(var i=0; i<archs.length; i++) {
+                var arch = archs[i];
+                $scope.architectures[arch] = {
+                    name: arch,
+                    show: false
+                };
+            }
         });
 
         BoxProviders.getProviders().then(function(providers) {
-            // TODO: provide radio buttons and a text field for another provider
-            //console.log(providers);
+            for(var i=0; i<providers.length; i++) {
+                var provider = providers[i];
+                $scope.providers[provider] = {
+                    name: provider,
+                    show: false
+                };
+            }
         });
 
         BoxDistributions.getDistros().then(function(distributions) {
