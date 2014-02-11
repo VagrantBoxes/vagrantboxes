@@ -8,7 +8,7 @@
             "number": "5.6"
         },
         "provider": "VirtualBox",
-        "size": "804 MB",
+        "size": "804",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
@@ -46,7 +46,7 @@
             "number": "5.6"
         },
         "provider": "VirtualBox",
-        "size": "420 MB",
+        "size": "420",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
@@ -80,7 +80,7 @@
             "number": "5.10"
         },
         "provider": "VMware",
-        "size": "653 MB",
+        "size": "653",
         "features": {
             "guest_additions": false,
             "vmware_tools": true,
@@ -114,7 +114,7 @@
             "number": "6.4"
         },
         "provider": "Vagrant-LXC",
-        "size": "251 MB",
+        "size": "251",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,

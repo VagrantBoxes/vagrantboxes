@@ -8,7 +8,7 @@
             "number": "2013-08-01"
         },
         "provider": "VirtualBox",
-        "size": "578 MB",
+        "size": "578",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,

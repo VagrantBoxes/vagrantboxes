@@ -3,11 +3,17 @@
 angular.module('vagrantlistApp').controller(
     'SuggestController',
     function ($scope,
-              BoxDistributions, VagrantBoxes, BoxArchitectures, BoxProviders) {
+              BoxDistributions,
+              VagrantBoxes,
+              BoxArchitectures,
+              BoxProviders,
+              BoxTemplate) {
 
         $scope.distributions = {};
         $scope.architectures = {};
         $scope.providers = {};
+
+        $scope.json = BoxTemplate;
 
         BoxArchitectures.getArchitectures().then(function(archs) {
             for(var i=0; i<archs.length; i++) {

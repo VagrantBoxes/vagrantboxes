@@ -8,7 +8,7 @@
             "number": "6.0.4"
         },
         "provider": "VirtualBox",
-        "size": "297 MB",
+        "size": "297",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
@@ -46,7 +46,7 @@
             "number": "6.0.4"
         },
         "provider": "VirtualBox",
-        "size": "283 MB",
+        "size": "283",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
@@ -84,7 +84,7 @@
             "number": "6.0.4"
         },
         "provider": "VirtualBox",
-        "size": "388 MB",
+        "size": "388",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,

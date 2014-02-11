@@ -83,9 +83,9 @@
         box.size)" >
         <td>{{box.distribution.name}}</td>
         <td>{{box.architecture}}</td>
-        <td>{{box.version.number}} ({{box.version.name}})</td>
+        <td>{{box.version.number}} {{box.version.name | bracesIfNotEmpty}}</td>
         <td>{{box.provider}}</td>
-        <td>{{box.name}} ({{box.size}})</td>
+        <td>{{box.name}} ({{box.size | fileSize}})</td>
         <td>{{box.url}}</td>
     </tr>
 </table>
