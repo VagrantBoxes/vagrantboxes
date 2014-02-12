@@ -2,7 +2,7 @@
 
 angular.module('vagrantlistApp').controller(
     'ListController',
-    function ($scope, $http, BoxDistributions) {
+    function ($scope, $http, BoxDistributions, VagrantBoxes, BoxArchitectures, BoxProviders) {
 
         /**
          * An array with all the boxes fetched from the server
@@ -46,13 +46,6 @@ angular.module('vagrantlistApp').controller(
             max: 0
         };
 
-        // for debugging/testing purposes
-//        $scope.$watch(
-//            'size.minmax_show.max',
-//            function(new_value, old_value) {
-//                console.log(new_value);
-//        });
-
         /************************************************************/
         // Some helpers
 
@@ -85,6 +78,7 @@ angular.module('vagrantlistApp').controller(
          * it to the box array.
          * @param distro
          * @param box
+         * @deprecated
          */
         var add_box = function(distro, box) {
             box.distribution = distro;
@@ -102,30 +96,23 @@ angular.module('vagrantlistApp').controller(
             }
         };
 
-        var adjust_slider_size_values = function(size) {
-            if($scope.size.min == 0) {
-//                $scope.size.floor = size;
-                $scope.size.min = size;
+        /**
+         * Positions both sliders so that they match the exact range of
+         * of the boxes' size.
+         *
+         * @param boxes
+         */
+        var adjust_slider_size_values = function(boxes) {
+
+            var sizes = [];
+
+            for(var i=0; i<boxes.length; i++) {
+                sizes.push(parseInt(boxes[i].size));
             }
 
-            if($scope.size.max == 0) {
-//                $scope.size.ceil = size;
-                $scope.size.max = size;
-            }
-
-            if(size < $scope.size.min) {
-//                $scope.size.floor = size;
-//                console.log('Min => old val: '+$scope.size.min, 'new val: '+size);
-                $scope.size.min = size;
-            }
-
-            if(size > $scope.size.max) {
-//                $scope.size.ceil = size;
-//                console.log('Max => old val: '+$scope.size.max, 'new val: '+size);
-                $scope.size.max = size;
-            }
+            $scope.size.min = Math.min.apply(Math, sizes);
+            $scope.size.max = Math.max.apply(Math, sizes);
         }
-
 
         /**
          * Returns true if all of the show properties (for the distro,
@@ -153,36 +140,31 @@ angular.module('vagrantlistApp').controller(
         // Now the controller is bootstrapped by populating all
         // necessary models and filters. First we fetch a list of
         // available distribitions and load them one after the other
-        // afterwards. All the models are populated asynchronously.
+        // afterwards.
 
         BoxDistributions.getDistros().then(function(distributions) {
-
-            $scope.distributions = distributions;
-
             for(var i = 0; i < distributions.length; i++) {
-
-                var slug = distributions[i].slug;
-
                 add_distro(distributions[i]);
-
-                // now populate the boxes array while the distribtion
-                // information will be merged into the jsons returned
-                // by the server
-                $http
-                    .get('boxes/' + slug + '.json', {cache: true})
-                    .success(
-                        (function(distribution){
-                            return function(boxes, status, headers, config) {
-                                for(var i = 0; i < boxes.length; i++) {
-                                    add_box(distribution, boxes[i]);
-                                    add_architecture(boxes[i].architecture);
-                                    add_provider(boxes[i].provider);
-                                    adjust_slider_size_values(boxes[i].size);
-                                }
-                            }
-                        }(distributions[i]))
-                    );
             }
+        });
+
+        BoxArchitectures.getArchitectures().then(function(architectures) {
+            for(var i = 0; i < architectures.length; i++) {
+                add_architecture(architectures[i]);
+            }
+        });
+
+        BoxProviders.getProviders().then(function(providers) {
+            for(var i = 0; i < providers.length; i++) {
+                add_provider(providers[i]);
+            }
+        });
+
+        VagrantBoxes.getBoxes().then(function(boxes) {
+            $scope.boxes = boxes;
+            // passing the boxes by call by value can consume some
+            // memory but this happens on the first page visit only
+            adjust_slider_size_values(boxes);
         });
     }
 );

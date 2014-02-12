@@ -38,21 +38,33 @@ services.factory('VagrantBoxes', function($q, $http, BoxDistributions) {
 
         var deferred = $q.defer();
 
-        // iterate over all the distributions and add the boxes of each
-        // to the boxes array, we cache the data of the ajax requests
-        // so that future executions of this block are much faster
         BoxDistributions.getDistros().then(function(distributions) {
+            // iterate over all the distributions and add the boxes of each
+            // to the boxes array, we cache the data of the ajax requests
+            // so that future executions of this block are much faster
             for(var i = 0; i < distributions.length; i++) {
                 var slug = distributions[i].slug;
                 $http
                     .get('boxes/' + slug + '.json', {cache: true})
-                    .success(function(_boxes, status, headers, config) {
-                        boxes = boxes.concat(_boxes);
-                        processed++;
-                        if(processed == distributions.length) {
-                            deferred.resolve(boxes);
-                        }
-                    });
+                    .success(
+                        // we need to use a closure here in order to
+                        // use the right distribution name, we would
+                        // work with the wrong one since we're in an
+                        // asynchronous environment here
+                        (function(distro) {
+                            return function(_boxes, status, headers, config) {
+                                for(var i=0; i<_boxes.length; i++) {
+                                    var box = _boxes[i];
+                                    box.distribution = distro;
+                                    boxes.push(box);
+                                }
+                                processed++;
+                                if(processed == distributions.length) {
+                                    deferred.resolve(boxes);
+                                }
+                            };
+                        }(distributions[i]))
+                    );
             }
         });
 
