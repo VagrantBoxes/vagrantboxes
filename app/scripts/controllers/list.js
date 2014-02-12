@@ -4,28 +4,6 @@ angular.module('vagrantlistApp').controller(
     'ListController',
     function ($scope, $http, BoxDistributions) {
 
-        /*##########################################################*/
-        // A dirty hack to interact with a jquery-based ui element
-        (function(){
-            var slider_width = 600;
-
-            $('.slider')
-                .slider({ max: 3000, value: 3000 })
-                .on('slide', function(event) {
-                    var slider_val = $(this).get(0).value;
-                    $("#size_minmax_filter").val(slider_val).change();
-                })
-                .css('width', slider_width + 'px');
-
-            $('.slider-horizontal').css('width', slider_width + 'px');
-
-            var tooltip = $('.slider .tooltip').eq(0);
-            var tooltip_width = parseInt(tooltip.css('width'));
-            var offset = tooltip_width/2;
-            tooltip.css('left', (slider_width-offset) + 'px');
-        })();
-        /*##########################################################*/
-
         /**
          * An array with all the boxes fetched from the server
          * @type {Array}
@@ -62,14 +40,10 @@ angular.module('vagrantlistApp').controller(
          * @type {Object}
          */
         $scope.size = {
-            "minmax": {
-                min: 0,
-                max: 3000
-            },
-            "minmax_show": {
-                min: 0,
-                max: 3000
-            }
+            floor: 0,
+            ceil: 3000,
+            min: 0,
+            max: 0
         };
 
         // for debugging/testing purposes
@@ -128,6 +102,31 @@ angular.module('vagrantlistApp').controller(
             }
         };
 
+        var adjust_slider_size_values = function(size) {
+            if($scope.size.min == 0) {
+//                $scope.size.floor = size;
+                $scope.size.min = size;
+            }
+
+            if($scope.size.max == 0) {
+//                $scope.size.ceil = size;
+                $scope.size.max = size;
+            }
+
+            if(size < $scope.size.min) {
+//                $scope.size.floor = size;
+//                console.log('Min => old val: '+$scope.size.min, 'new val: '+size);
+                $scope.size.min = size;
+            }
+
+            if(size > $scope.size.max) {
+//                $scope.size.ceil = size;
+//                console.log('Max => old val: '+$scope.size.max, 'new val: '+size);
+                $scope.size.max = size;
+            }
+        }
+
+
         /**
          * Returns true if all of the show properties (for the distro,
          * arch, provider, ...) are true
@@ -137,10 +136,17 @@ angular.module('vagrantlistApp').controller(
          * @returns {boolean}
          */
         $scope.isBoxVisible = function(distro, arch, provider, size) {
+
+            // we calculate the min/max values because we're not 100%
+            // certain that slider will swapt the min/max attributes
+            // dynamically
+            var min = Math.min($scope.size.min, $scope.size.max);
+            var max = Math.max($scope.size.min, $scope.size.max);
+
             return $scope.distributions[distro].show
                 && $scope.architectures[arch].show
                 && $scope.providers[provider].show
-                && $scope.size.minmax_show.max >= parseInt(size);
+                && (min <= size && size <= max)
         };
 
         /************************************************************/
@@ -171,6 +177,7 @@ angular.module('vagrantlistApp').controller(
                                     add_box(distribution, boxes[i]);
                                     add_architecture(boxes[i].architecture);
                                     add_provider(boxes[i].provider);
+                                    adjust_slider_size_values(boxes[i].size);
                                 }
                             }
                         }(distributions[i]))
