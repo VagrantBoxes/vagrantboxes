@@ -1,0 +1,41 @@
+.box-list th, .box-list td {
+    /*border-top: solid 1px #dddddd;*/
+    border-bottom: solid 1px #dddddd;
+    padding: 5px;
+}
+
+.box-list th:nth-child(1), .box-list td:nth-child(1) {
+    width: 30%;
+}
+
+.box-list th:nth-child(2), .box-list td:nth-child(2) {
+    width: 20%;
+}
+
+.box-list th:nth-child(3), .box-list td:nth-child(3) {
+    width: 20%;
+}
+
+.box-list th:nth-child(4), .box-list td:nth-child(4) {
+    width: 20%;
+}
+
+.box-list th:nth-child(5), .box-list td:nth-child(5) {
+    width: 10%;
+}
+.highlight {
+    background: #f8f8f8;
+}
+
+.box-list .form-control[readonly] {
+    background-color: white;
+}
+
+.box-list .btn-default {
+    cursor: default;
+}
+
+.box-list .btn-default:hover {
+    background-color: white;
+    border-color: #cbcbcb;
+}

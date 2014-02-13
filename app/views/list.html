@@ -21,7 +21,7 @@
     <!--</div>-->
 
     <div class="btn-group" >
-        <button ng-repeat="distro in distributions" type="button" class="btn btn-primary" ng-model="distro.show" btn-checkbox>{{distro.name}}</button>
+        <button ng-repeat="distro in distributions" type="button" class="btn btn-default" ng-model="distro.show" btn-checkbox>{{distro.name}}</button>
     </div>
 </p>
 
@@ -33,7 +33,7 @@
     <!--</div>-->
 
     <div class="btn-group" >
-        <button ng-repeat="arch in architectures" type="button" class="btn btn-primary" ng-model="arch.show" btn-checkbox>{{arch.name}}</button>
+        <button ng-repeat="arch in architectures" type="button" class="btn btn-default" ng-model="arch.show" btn-checkbox>{{arch.name}}</button>
     </div>
 </p>
 
@@ -44,7 +44,7 @@
         <!--</span>-->
     <!--</div>-->
     <div class="btn-group" >
-        <button ng-repeat="provider in providers" type="button" class="btn btn-primary" ng-model="provider.show" btn-checkbox>{{provider.name}}</button>
+        <button ng-repeat="provider in providers" type="button" class="btn btn-default" ng-model="provider.show" btn-checkbox>{{provider.name}}</button>
     </div>
 </p>
 
@@ -56,25 +56,71 @@
         rz-slider-high="size.max"
         rz-slider-step="1"></rzslider>
 </p>
-        
-<table class="table">
-    <tr>
-        <th>Distribution</th>
-        <th>Architecture</th>
-        <th>Version</th>
-        <th>Provider</th>
-        <th>Box</th>
-        <th>URL</th>
-    </tr>
-    <tr ng-repeat="box in boxes" ng-show="isBoxVisible(
-        box.distribution.slug, box.architecture, box.provider,
-        box.size)" >
-        <td>{{box.distribution.name}}</td>
-        <td>{{box.architecture}}</td>
-        <td>{{box.version.number}} {{box.version.name | bracesIfNotEmpty}}</td>
-        <td>{{box.provider}}</td>
-        <td>{{box.name}} ({{box.size | fileSize}})</td>
-        <td>{{box.url}}</td>
-    </tr>
-</table>
 
+<p>
+<table class="box-list" style="width: 100%;" ng-controller="TableController">
+    <thead>
+        <tr>
+            <th>Distribution</th>
+            <th>Architecture</th>
+            <th>Version</th>
+            <th>Provider</th>
+            <th>Size</th>
+        </tr>
+    </thead>
+    <tbody ng-repeat="box in boxes" ng-show="isBoxVisible(
+                box.distribution.slug, box.architecture, box.provider,
+                box.size)" >
+        <tr ng-class="isInfoVisible($index) ? 'highlight' : ''">
+            <td colspan="5" style="border: 0px; padding:0;">
+                <table class="box-list" style="width: 100%;">
+                    <tr ng-click="onClick($index)">
+                        <td>{{box.distribution.name}}</td>
+                        <td>{{box.architecture}}</td>
+                        <td>{{box.version.number}} {{box.version.name | bracesIfNotEmpty}}</td>
+                        <td>{{box.provider}}</td>
+                        <td>{{box.size | fileSize}}</td>
+                    </tr>
+                    <tr class="box-info" ng-show="isInfoVisible($index)" style="border-top: none;">
+                        <td colspan="5">
+                            <br>
+                            <div class="row" style="width: 90%; margin-left: 5%;">
+                                <div class="col-lg-12">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <span class="btn btn-default">
+                                                Give your box a name
+                                            </span>
+                                        </span>
+                                        <input type="text"
+                                               class="form-control"
+                                               ng-model="box.name"
+                                               value="{{box.name}}">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div style="width: 82%; margin-left: 9%;">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <span class="btn btn-default" type="button">
+                                                Copy this command
+                                            </span>
+                                        </span>
+                                        <input onclick="this.select(); return false;"
+                                               type="text" class="form-control"
+                                               value="vagrant box add '{{box.name}}' {{box.url}}"
+                                               readonly>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
