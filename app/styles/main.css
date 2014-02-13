@@ -84,13 +84,3 @@ body {
         border-bottom: 0;
     }
 }
-
-/* a hack to get the slider correctly displayed */
-.slider-handle {
-    display: none;
-}
-
-.slider-handle.round {
-    display: block;
-    z-index: 100;
-}
