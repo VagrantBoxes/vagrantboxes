@@ -66,7 +66,11 @@
                 "mysql": false,
                 "mongodb": false
             },
-            "git": false
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
         },
         "source": "",
         "comment": ""
@@ -100,7 +104,11 @@
                 "mysql": false,
                 "mongodb": false
             },
-            "git": false
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
         },
         "source": "",
         "comment": ""
@@ -134,7 +142,11 @@
                 "mysql": false,
                 "mongodb": false
             },
-            "git": false
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
         },
         "source": "",
         "comment": ""
