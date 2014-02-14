@@ -12,8 +12,40 @@
         "slug": "debian"
     },
     {
+        "name": "Fedora",
+        "slug": "fedora"
+    },
+    {
+        "name": "Gentoo",
+        "slug": "gentoo"
+    },
+    {
+        "name": "Kali",
+        "slug": "kali"
+    },
+    {
+        "name": "OmniOS",
+        "slug": "omnios"
+    },
+    {
         "name": "OpenBSD",
         "slug": "openbsd"
+    },
+    {
+        "name": "OpenMandriva",
+        "slug": "openmandriva"
+    },
+    {
+        "name": "OpenSUSE",
+        "slug": "opensuse"
+    },
+    {
+        "name": "Oracle Linux",
+        "slug": "oracle"
+    },
+    {
+        "name": "Slackware",
+        "slug": "slackware"
     },
     {
         "name": "Ubuntu",
