@@ -3,7 +3,7 @@
         "name": "Puppetlabs SLES 11sp1 x86_64, VBox 4.2.10 (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "11sp1"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -50,7 +50,7 @@
         "name": "Puppetlabs SLES 11sp1 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "11sp1"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -63,8 +63,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": true,
-            "chef": true,
+            "puppet": false,
+            "chef": false,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,

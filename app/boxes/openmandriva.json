@@ -1,6 +1,6 @@
 [
     {
-        "name": "Openmandriva2013.0 x86_64 (LXC, 2013.10.21)",
+        "name": "Openmandriva2013.0 x86_64 (LXC)",
         "version": {
             "name": "",
             "number": ""
@@ -12,7 +12,7 @@
         "source": "",
         "comment": "",
         "creator": "",
-        "created": "",
+        "created": "2013-10-21",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,

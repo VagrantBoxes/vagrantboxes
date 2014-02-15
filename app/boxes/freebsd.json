@@ -3,7 +3,7 @@
         "name": "FreeBSD 9.2 i386 (UFS, VirtualBox Guest Additions 4.2.18, pkgng enabled, Python 2.7) [source]",
         "version": {
             "name": "",
-            "number": ""
+            "number": "9.2"
         },
         "architecture": "32-bit",
         "provider": "VirtualBox",
@@ -14,7 +14,7 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": false,
             "chef": false,
@@ -26,7 +26,7 @@
             "interpreters": {
                 "ruby": false,
                 "php": false,
-                "python": false
+                "python": true
             },
             "database": {
                 "mysql": false,
@@ -50,7 +50,7 @@
         "name": "FreeBSD 9.2 x86_64 Minimal (VirtualBox, ZFS)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "9.2"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",

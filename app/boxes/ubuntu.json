@@ -2,8 +2,8 @@
     {
         "name": "AppScale 1.12.0 (Ubuntu Precise 12.04 64-bit)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -49,8 +49,8 @@
     {
         "name": "Ubuntu precise 64 (Ruby 1.9.3 & Chef 10.12)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -71,7 +71,7 @@
                 "nginx": false
             },
             "interpreters": {
-                "ruby": false,
+                "ruby": true,
                 "php": false,
                 "python": false
             },
@@ -96,8 +96,8 @@
     {
         "name": "Ubuntu Server raring 13.04 amd64 (ruby-2.0.0-247 only) MySQL headers already included for building mysql2 extension",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Raring",
+            "number": "13.04"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -118,7 +118,7 @@
                 "nginx": false
             },
             "interpreters": {
-                "ruby": false,
+                "ruby": true,
                 "php": false,
                 "python": false
             },
@@ -143,8 +143,8 @@
     {
         "name": "Ubuntu Server raring 13.04 amd64 (ruby 1.9.3, puppet, guest additions)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Raring",
+            "number": "13.04"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -155,7 +155,7 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": true,
             "chef": false,
@@ -165,7 +165,7 @@
                 "nginx": false
             },
             "interpreters": {
-                "ruby": false,
+                "ruby": true,
                 "php": false,
                 "python": false
             },
@@ -190,8 +190,8 @@
     {
         "name": "Ubuntu Server Precise 12.04.3 amd64 (source) Kernel is ready for Docker (Docker not included)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04.3"
         },
         "architecture": "64-bit",
         "provider": "VMware",
@@ -237,10 +237,10 @@
     {
         "name": "Ubuntu Lucid32 lampp, mongodb, git, lithium, rockmongo",
         "version": {
-            "name": "",
+            "name": "Lucid",
             "number": ""
         },
-        "architecture": "Unknown",
+        "architecture": "32-bit",
         "provider": "VirtualBox",
         "size": 568,
         "url": "http:\/\/www.hitarthindia.com\/VM\/lampp-mongo-git-lithium-rock.box",
@@ -254,21 +254,21 @@
             "puppet": false,
             "chef": false,
             "webserver": {
-                "apache": false,
+                "apache": true,
                 "lighttpd": false,
                 "nginx": false
             },
             "interpreters": {
                 "ruby": false,
-                "php": false,
+                "php": true,
                 "python": false
             },
             "database": {
-                "mysql": false,
-                "mongodb": false
+                "mysql": true,
+                "mongodb": true
             },
             "vcs": {
-                "git": false,
+                "git": true,
                 "svn": false,
                 "hg": false
             }
@@ -284,8 +284,8 @@
     {
         "name": "Ubuntu 12.04.1 LTS x86_64 (Guest Additions 4.1.18)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04.1 LTS"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -296,7 +296,7 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": false,
             "chef": false,
@@ -331,10 +331,10 @@
     {
         "name": "Ubuntu Lucid32 lampp, mongodb, git",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04.1 LTS"
         },
-        "architecture": "Unknown",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 566,
         "url": "http:\/\/www.hitarthindia.com\/VM\/lampp-mongo-git.box",
@@ -343,7 +343,7 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": false,
             "chef": false,
@@ -378,8 +378,8 @@
     {
         "name": "Ubuntu Server Precise 12.04.3 amd64 (source) Kernel is ready for Docker (Docker not included)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -426,7 +426,7 @@
         "name": "Ubuntu 13.10 amd64 for VMWare (with Chef, ruby1.9.3 and vmware-tools)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "13.10"
         },
         "architecture": "64-bit",
         "provider": "VMware",
@@ -438,7 +438,7 @@
         "created": "",
         "features": {
             "guest_additions": false,
-            "vmware_tools": false,
+            "vmware_tools": true,
             "puppet": false,
             "chef": true,
             "webserver": {
@@ -447,7 +447,7 @@
                 "nginx": false
             },
             "interpreters": {
-                "ruby": false,
+                "ruby": true,
                 "php": false,
                 "python": false
             },
@@ -472,10 +472,10 @@
     {
         "name": "Ubuntu Maverick 64",
         "version": {
-            "name": "",
+            "name": "Maverick",
             "number": ""
         },
-        "architecture": "Unknown",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 515,
         "url": "http:\/\/mathie-vagrant-boxes.s3.amazonaws.com\/maverick64.box",
@@ -520,7 +520,7 @@
         "name": "Ubuntu Server 13.10 amd64 (Chef 11.8.0, VMware tools)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "13.10"
         },
         "architecture": "64-bit",
         "provider": "VMware",
@@ -532,7 +532,7 @@
         "created": "",
         "features": {
             "guest_additions": false,
-            "vmware_tools": false,
+            "vmware_tools": true,
             "puppet": false,
             "chef": true,
             "webserver": {
@@ -566,8 +566,8 @@
     {
         "name": "Ubuntu Server 13.04 x64 Raring Ringtail (VirtualBox Guest Additions 4.2.12, Chef 11.4.4, Puppet 2.7.18)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Raring",
+            "number": "13.04"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -578,7 +578,7 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": true,
             "chef": true,
@@ -613,8 +613,8 @@
     {
         "name": "Ubuntu Server Precise 12.04 amd64 (Chef 11.8.0, VMware Tools)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04"
         },
         "architecture": "64-bit",
         "provider": "VMware",
@@ -626,7 +626,7 @@
         "created": "",
         "features": {
             "guest_additions": false,
-            "vmware_tools": false,
+            "vmware_tools": true,
             "puppet": false,
             "chef": true,
             "webserver": {
@@ -660,8 +660,8 @@
     {
         "name": "Ubuntu Server Precise 12.04.3 amd64 Kernel is ready for Docker (Docker not included)",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04.3"
         },
         "architecture": "64-bit",
         "provider": "VMware",
@@ -707,8 +707,8 @@
     {
         "name": "Ubuntu 12.04.2 Server amd64 for VMWare Fusion and Chef Omnibus 11",
         "version": {
-            "name": "",
-            "number": ""
+            "name": "Precise",
+            "number": "12.04.2"
         },
         "architecture": "64-bit",
         "provider": "VMware",

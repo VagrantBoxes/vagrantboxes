@@ -50,9 +50,9 @@
         "name": "Kali Linux 1.0 i686",
         "version": {
             "name": "",
-            "number": ""
+            "number": "1.0"
         },
-        "architecture": "Unknown",
+        "architecture": "32-bit",
         "provider": "VirtualBox",
         "size": 2346,
         "url": "http:\/\/dalvik.jp\/vagrant\/KaliLinux-1.0-en-i686.box",

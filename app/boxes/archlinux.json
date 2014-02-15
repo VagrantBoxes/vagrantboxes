@@ -1,9 +1,9 @@
 [
     {
-        "name": "Arch Linux 64 (2013-08-01)",
+        "name": "Arch Linux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-08-01"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -47,10 +47,10 @@
         }
     },
     {
-        "name": "Arch Linux x64 (2013-08-17)",
+        "name": "Arch Linux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-08-17"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -94,10 +94,10 @@
         }
     },
     {
-        "name": "Archlinux 2011-08-19",
+        "name": "Archlinux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2011-08-19"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
@@ -141,10 +141,10 @@
         }
     },
     {
-        "name": "Arch Linux 64 (2013-07-28) (Puppet and Chef installed)",
+        "name": "Arch Linux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-07-28"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -157,8 +157,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -188,10 +188,10 @@
         }
     },
     {
-        "name": "Archlinux 2013-08-09",
+        "name": "Archlinux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-08-09"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
@@ -235,31 +235,31 @@
         }
     },
     {
-        "name": "Arch Linux 64 (2013-07-26) - Chef 11.6.0 from gem, Ruby from pacman",
+        "name": "Arch Linux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-07-26"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 466,
         "url": "http:\/\/iweb.dl.sourceforge.net\/project\/flowboard-vagrant-boxes\/arch64-2013-07-26-chef.box",
         "source": "",
-        "comment": "",
+        "comment": "Chef 11.6.0 from gem, Ruby from pacman",
         "creator": "",
         "created": "",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
                 "nginx": false
             },
             "interpreters": {
-                "ruby": false,
+                "ruby": true,
                 "php": false,
                 "python": false
             },
@@ -282,17 +282,17 @@
         }
     },
     {
-        "name": "Arch Linux 64 (2013-07-26) - Base Install",
+        "name": "Arch Linux",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-07-26"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 433,
         "url": "http:\/\/iweb.dl.sourceforge.net\/project\/flowboard-vagrant-boxes\/arch64-2013-07-26-minimal.box",
         "source": "",
-        "comment": "",
+        "comment": "Base install",
         "creator": "",
         "created": "",
         "features": {
@@ -329,10 +329,10 @@
         }
     },
     {
-        "name": "Arch Linux_2013.11 x64 (vanilla)",
+        "name": "Arch Linux vanilla",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-11"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -379,7 +379,7 @@
         "name": "Arch Linux x86_64 (2013-08)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "2013-08"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",

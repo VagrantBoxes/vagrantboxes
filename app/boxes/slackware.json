@@ -1,9 +1,9 @@
 [
     {
-        "name": "Slackware 13.37",
+        "name": "Slackware",
         "version": {
             "name": "",
-            "number": ""
+            "number": "13.37"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",

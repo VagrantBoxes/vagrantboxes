@@ -3,7 +3,7 @@
         "name": "CentOS 5.8 x86_64",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.8"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -50,7 +50,7 @@
         "name": "CentOS 5.6 32",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.6"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
@@ -97,21 +97,21 @@
         "name": "CentOS 5.10 x86_64 Base, VMware Tools, Chef 11.6 (Omnibus), Puppet 3.3.2 (Vendor repo)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.10"
         },
         "architecture": "64-bit",
         "provider": "VMware",
         "size": 653,
         "url": "https:\/\/dl.dropboxusercontent.com\/s\/r5okkx8330h3tzh\/vagrant-centos-5.10-x86_64.box",
         "source": "",
-        "comment": "",
+        "comment": "Base",
         "creator": "",
         "created": "",
         "features": {
             "guest_additions": false,
-            "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "vmware_tools": true,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -144,7 +144,7 @@
         "name": "CentOS 6.3 32bit (puppet)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.3"
         },
         "architecture": "32-bit",
         "provider": "VirtualBox",
@@ -157,7 +157,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -191,7 +191,7 @@
         "name": "CentOS 6.4 x86_64 Minimal VMware Fusion (VMware Tools, Chef 11.4.0, Puppet 3.1.1)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "VMware",
@@ -203,9 +203,9 @@
         "created": "",
         "features": {
             "guest_additions": false,
-            "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "vmware_tools": true,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -238,7 +238,7 @@
         "name": "Puppetlabs CentOS 5.9 x86_64, VBox 4.2.10 (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.9"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -285,7 +285,7 @@
         "name": "Puppetlabs CentOS 6.4 x86_64, VBox 4.2.10 (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -332,7 +332,7 @@
         "name": "Puppetlabs CentOS 5.9 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.9"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -379,7 +379,7 @@
         "name": "Puppetlabs CentOS 6.4 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -426,7 +426,7 @@
         "name": "CentOS 6.4 x86_64 2013-07-01 -- With development tools (gcc, etc...). Works on VBox 4.2.14!",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -435,7 +435,7 @@
         "source": "",
         "comment": "",
         "creator": "",
-        "created": "",
+        "created": "2013-07-01",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
@@ -473,7 +473,7 @@
         "name": "CentOS 6.2 32bit (puppet)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.2"
         },
         "architecture": "32-bit",
         "provider": "VirtualBox",
@@ -486,7 +486,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -520,7 +520,7 @@
         "name": "CentOS 6.4 x86_64 Minimal (VirtualBox Guest Additions 4.2.16, Chef 11.6.0, Puppet 3.2.3)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -531,10 +531,10 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -567,7 +567,7 @@
         "name": "CentOS 6.4 i386 Minimal (VirtualBox Guest Additions 4.2.16, Chef 11.6.0, Puppet 3.2.3)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "32-bit",
         "provider": "VirtualBox",
@@ -578,10 +578,10 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -614,7 +614,7 @@
         "name": "Opscode centos 5",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
@@ -661,7 +661,7 @@
         "name": "CentOS 6.3 x86_64 + Chef 10.14.2 + VirtualBox 4.1.22 (with guest additions)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -672,10 +672,10 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -708,7 +708,7 @@
         "name": "CentOS 6.3 32bit (Ruby 1.8.7 & Chef 10.14.2)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.3"
         },
         "architecture": "32-bit",
         "provider": "VirtualBox",
@@ -722,14 +722,14 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
                 "nginx": false
             },
             "interpreters": {
-                "ruby": false,
+                "ruby": true,
                 "php": false,
                 "python": false
             },
@@ -755,7 +755,7 @@
         "name": "CentOS 6.5 amd64 for vagrant-lxc with Puppet 3.3.2",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.5"
         },
         "architecture": "64-bit",
         "provider": "Vagrant-LXC",
@@ -768,7 +768,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -802,7 +802,7 @@
         "name": "CentOS 5.6 64 Packages (puppet 2.6.10 & chef 0.10.6 from RPM, VirtualBox 4.2.0)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.6"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -815,8 +815,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -849,7 +849,7 @@
         "name": "Minimal CentOS 6.0",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.0"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
@@ -896,7 +896,7 @@
         "name": "CentOS 5.9 x86_64 minimal + guest additions, puppet, chef",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.9"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -907,10 +907,10 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -943,7 +943,7 @@
         "name": "CentOS 5.8 x86_64 minimal + guest additions, puppet, chef",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.8"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -954,10 +954,10 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -990,7 +990,7 @@
         "name": "CentOS 6.3 x86_64 minimal",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -1037,7 +1037,7 @@
         "name": "CentOS 6.4 x86_64 [notes]",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -1084,7 +1084,7 @@
         "name": "Minimal CentOS 5.6",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.6"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
@@ -1131,7 +1131,7 @@
         "name": "CentOS 6.5 x86_64 [notes]",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.5"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -1178,7 +1178,7 @@
         "name": "CentOS 6.4 amd64 for vagrant-lxc with Puppet 3.3.1",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6.4"
         },
         "architecture": "64-bit",
         "provider": "Vagrant-LXC",
@@ -1191,7 +1191,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,

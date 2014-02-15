@@ -47,7 +47,7 @@
         }
     },
     {
-        "name": "Funtoo 2013.06 amd64 (Chef omnibus 11.4.4, VirtualBox 4.2.12)",
+        "name": "Funtoo amd64 (Chef omnibus 11.4.4, VirtualBox 4.2.12)",
         "version": {
             "name": "",
             "number": ""
@@ -59,7 +59,7 @@
         "source": "",
         "comment": "",
         "creator": "",
-        "created": "",
+        "created": "2013-06",
         "features": {
             "guest_additions": false,
             "vmware_tools": false,

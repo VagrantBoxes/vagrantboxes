@@ -3,13 +3,13 @@
         "name": "openSUSE 12.1 x64",
         "version": {
             "name": "",
-            "number": ""
+            "number": "12.1"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 665,
         "url": "https:\/\/github.com\/jtperry\/OpenSuseVagrantBox",
-        "source": "",
+        "source": "https:\/\/github.com\/jtperry\/OpenSuseVagrantBox",
         "comment": "",
         "creator": "",
         "created": "",
@@ -50,7 +50,7 @@
         "name": "OpenSuse 12.3 x86_64 (puppet)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "12.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -97,9 +97,9 @@
         "name": "OpenSuse 12.2 x86 (puppet)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "12.2"
         },
-        "architecture": "Unknown",
+        "architecture": "32-bit",
         "provider": "VirtualBox",
         "size": 554,
         "url": "http:\/\/sourceforge.net\/projects\/opensusevagrant\/files\/12.2\/opensuse-12.2-32.box\/download",
@@ -144,7 +144,7 @@
         "name": "OpenSuse 12.2 x86_64 (puppet)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "12.2"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -191,9 +191,9 @@
         "name": "OpenSuse 12.3 x86 (puppet)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "12.3"
         },
-        "architecture": "Unknown",
+        "architecture": "32-bit",
         "provider": "VirtualBox",
         "size": 530,
         "url": "http:\/\/sourceforge.net\/projects\/opensusevagrant\/files\/12.3\/opensuse-12.3-32.box\/download",
@@ -238,7 +238,7 @@
         "name": "openSUSE 12.3 (x64) puppet chef (Details)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "12.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",

@@ -3,7 +3,7 @@
         "name": "OpenBSD 5.2 (amd64) puppet chef pkg ports",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.2"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -50,7 +50,7 @@
         "name": "OpenBSD 5.3 64-bit",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -97,7 +97,7 @@
         "name": "OpenBSD 5.3 64-bit (Vagrant 1.2)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.3"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -144,7 +144,7 @@
         "name": "OpenBSD 5.0 (amd64) puppet chef pkg ports",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.0"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -191,7 +191,7 @@
         "name": "OpenBSD 5.0 (i386) puppet chef pkg ports",
         "version": {
             "name": "",
-            "number": ""
+            "number": "5.0"
         },
         "architecture": "32-bit",
         "provider": "VirtualBox",

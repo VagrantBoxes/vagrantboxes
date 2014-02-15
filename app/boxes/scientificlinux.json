@@ -3,7 +3,7 @@
         "name": "Scientific Linux 6 64 chefserver-0.10",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -50,7 +50,7 @@
         "name": "Scientific Linux 6 64 chefclient0.10",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -97,7 +97,7 @@
         "name": "Scientific Linux 6 64 minimal",
         "version": {
             "name": "",
-            "number": ""
+            "number": "6"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",

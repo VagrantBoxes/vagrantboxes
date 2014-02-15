@@ -1,11 +1,11 @@
 [
     {
-        "name": "Fedora 18 x86 Minimal (with Chef 11.4.0, VirtualBox Guest Additions 4.2.10 and rpmfusion enabled); md5sum 36b8aaf49421510a726b6175ee44e15b sha1sum d5a6a3c4ab1538105b18e6efba4d9479798a430e",
+        "name": "Fedora 18 x86 Minimal (with Chef 11.4.0, VirtualBox Guest Additions 4.2.10 and rpmfusion enabled)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "18"
         },
-        "architecture": "Unknown",
+        "architecture": "32-bit",
         "provider": "VirtualBox",
         "size": 635,
         "url": "http:\/\/static.stasiak.at\/fedora-18-x86-2.box",
@@ -14,7 +14,7 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": false,
+            "guest_additions": true,
             "vmware_tools": false,
             "puppet": false,
             "chef": true,
@@ -39,8 +39,8 @@
             }
         },
         "hash": {
-            "md5sum": "",
-            "sha1sum": "",
+            "md5sum": "36b8aaf49421510a726b6175ee44e15b",
+            "sha1sum": "d5a6a3c4ab1538105b18e6efba4d9479798a430e",
             "sha256sum": "",
             "sha384sum": "",
             "sha512sum": ""
@@ -50,7 +50,7 @@
         "name": "Puppetlabs Fedora 18 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "18"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -63,8 +63,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": true,
-            "chef": true,
+            "puppet": false,
+            "chef": false,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -97,7 +97,7 @@
         "name": "Puppetlabs Fedora 18 x86_64, VBox 4.2.10 (src)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "18"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",
@@ -144,7 +144,7 @@
         "name": "Fedora 19 x86_64 (Puppet, VirtualBox)",
         "version": {
             "name": "",
-            "number": ""
+            "number": "19"
         },
         "architecture": "64-bit",
         "provider": "VirtualBox",

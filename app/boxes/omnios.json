@@ -1,9 +1,9 @@
 [
     {
-        "name": "OmniOS (r151002)",
+        "name": "OmniOS",
         "version": {
             "name": "",
-            "number": ""
+            "number": "r151002"
         },
         "architecture": "Unknown",
         "provider": "VirtualBox",
