@@ -35,7 +35,14 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     },
     {
         "name": "CentOS",
@@ -73,7 +80,14 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     },
     {
         "name": "CentOS",
@@ -111,7 +125,14 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     },
     {
         "name": "CentOS",
@@ -149,6 +170,13 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     }
 ]

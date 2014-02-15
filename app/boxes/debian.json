@@ -35,7 +35,14 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     },
     {
         "name": "Aegir-up Debian",
@@ -73,7 +80,14 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     },
     {
         "name": "Aegir-up LAMP",
@@ -111,6 +125,13 @@
             }
         },
         "source": "",
-        "comment": ""
+        "comment": "",
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
     }
 ]
