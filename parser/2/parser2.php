@@ -99,6 +99,7 @@ function is_32_bit($name)
     $archs = array(
         'x86',
         'i386',
+        'i686',
         '32-bit',
         '32bit',
         ' 32 ',
