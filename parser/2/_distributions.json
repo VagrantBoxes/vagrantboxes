@@ -52,6 +52,10 @@
         "slug": "oracle"
     },
     {
+        "name": "Others",
+        "slug": "others"
+    },
+    {
         "name": "Scientific Linux",
         "slug": "scientificlinux"
     },
