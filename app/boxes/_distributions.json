@@ -16,6 +16,10 @@
         "slug": "fedora"
     },
     {
+        "name": "FreeBSD",
+        "slug": "freebsd"
+    },
+    {
         "name": "Gentoo",
         "slug": "gentoo"
     },
@@ -36,16 +40,24 @@
         "slug": "openmandriva"
     },
     {
-        "name": "Others",
-        "slug": "others"
-    },
-    {
         "name": "OpenSUSE",
         "slug": "opensuse"
     },
     {
+        "name": "SLES",
+        "slug": "sles"
+    },
+    {
         "name": "Oracle Linux",
         "slug": "oracle"
+    },
+    {
+        "name": "Others",
+        "slug": "others"
+    },
+    {
+        "name": "Scientific Linux",
+        "slug": "scientificlinux"
     },
     {
         "name": "Slackware",
