@@ -14,28 +14,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -61,28 +61,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -108,28 +108,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -155,28 +155,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -202,28 +202,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -249,28 +249,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -296,28 +296,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -343,28 +343,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -390,28 +390,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -437,28 +437,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -484,28 +484,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -531,28 +531,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -578,28 +578,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -625,28 +625,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -672,28 +672,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -719,28 +719,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -766,28 +766,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -813,28 +813,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -860,28 +860,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -907,28 +907,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -954,28 +954,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1001,28 +1001,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1048,28 +1048,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1095,28 +1095,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1142,28 +1142,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1189,28 +1189,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1236,28 +1236,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1283,28 +1283,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
@@ -1330,28 +1330,28 @@
         "creator": "",
         "created": "",
         "features": {
-            "guest_additions": "",
-            "vmware_tools": "",
-            "puppet": "",
-            "chef": "",
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
             "webserver": {
-                "apache": "",
-                "lighttpd": "",
-                "nginx": ""
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
             },
             "interpreters": {
-                "ruby": "",
-                "php": "",
-                "python": ""
+                "ruby": false,
+                "php": false,
+                "python": false
             },
             "database": {
-                "mysql": "",
-                "mongodb": ""
+                "mysql": false,
+                "mongodb": false
             },
             "vcs": {
-                "git": "",
-                "svn": "",
-                "hg": ""
+                "git": false,
+                "svn": false,
+                "hg": false
             }
         },
         "hash": {
