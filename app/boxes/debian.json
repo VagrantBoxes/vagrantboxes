@@ -1,5 +1,7 @@
 [
     {
+        "creator": "",
+        "created": "",
         "name": "Aegir-up Aegir",
         "url": "http://ergonlogic.com/files/boxes/aegir-current.box",
         "architecture": "64-bit",
@@ -45,6 +47,8 @@
         }
     },
     {
+        "creator": "",
+        "created": "",
         "name": "Aegir-up Debian",
         "url": "http://ergonlogic.com/files/boxes/debian-current.box",
         "architecture": "64-bit",
@@ -90,6 +94,8 @@
         }
     },
     {
+        "creator": "",
+        "created": "",
         "name": "Aegir-up LAMP",
         "url": "http://ergonlogic.com/files/boxes/debian-LAMP-current.box",
         "architecture": "64-bit",

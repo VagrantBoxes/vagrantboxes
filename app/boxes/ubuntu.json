@@ -1,5 +1,7 @@
 [
     {
+        "creator": "",
+        "created": "",
         "name": "AppScale 1.12.0",
         "url": "http://download.appscale.com/download/AppScale%201.12.0%20VirtualBox%20Image",
         "architecture": "64-bit",
