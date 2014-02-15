@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Puppetlabs SLES 11sp1 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "",
+        "provider": "VirtualBox",
+        "size": 519,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/sles-11sp1-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs SLES 11sp1 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "",
+        "provider": "VirtualBox",
+        "size": 500,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/sles-11sp1-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

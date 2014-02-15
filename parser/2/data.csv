@@ -1,0 +1,162 @@
+Name#Provider#Url#Size
+Kali Linux#VirtualBox#http://ftp.sliim-projects.eu/boxes/kali-linux-1.0-amd64.box#2500MB
+Kali Linux 1.0 i686#VirtualBox#http://dalvik.jp/vagrant/KaliLinux-1.0-en-i686.box#2346MB
+Slackware 13.37#VirtualBox#http://dl.dropbox.com/u/10544201/slackware-13.37.box#2200MB
+AppScale 1.12.0 (Ubuntu Precise 12.04 64-bit)#VirtualBox#http://download.appscale.com/download/AppScale%201.12.0%20VirtualBox%20Image#1900 MB
+CentOS 5.8 x86_64#VirtualBox#https://dl.dropbox.com/u/17738575/CentOS-5.8-x86_64.box#957MB
+Ubuntu precise 64 (Ruby 1.9.3 & Chef 10.12)#VirtualBox#https://dl.dropbox.com/u/14292474/vagrantboxes/precise64-ruby-1.9.3-p194.box#892MB
+OpenBSD 5.2 (amd64) puppet chef pkg ports#VirtualBox#https://dl.dropbox.com/s/5ietqc3thdholuh/openbsd-52-64.box#889MB
+OmniOS (r151002)#VirtualBox#http://omnios.omniti.com/media/omnios-latest.box#837MB
+CentOS 5.6 32#VirtualBox#http://yum.mnxsolutions.com/vagrant/centos_56_32.box#804MB
+Ubuntu Server raring 13.04 amd64 (ruby-2.0.0-247 only) MySQL headers already included for building mysql2 extension #VirtualBox#https://dl.dropboxusercontent.com/s/o5i10hcu57jamg8/ubuntu64-ruby2.box#729MB
+Gentoo 2013.02.14 i686 (32bit) (Puppet, Chef, VirtualBox 4.2.6)#VirtualBox#https://seedrs.box.com/shared/static/6cg94mkdtuz3baoy8zl8.box#717MB
+Oracle Linux 6.5 x86_64 (Chef + Puppet) (src)#VirtualBox#https://dl.dropbox.com/s/613uhl43ekqzami/oraclelinux-6-x86_64.box#684MB
+openSUSE 12.1 x64#VirtualBox#https://github.com/jtperry/OpenSuseVagrantBox#665MB
+Scientific Linux 6 64 chefserver-0.10#VirtualBox#http://download.frameos.org/sl6-64-chefserver-0.10.box#657MB
+CentOS 5.10 x86_64 Base, VMware Tools, Chef 11.6 (Omnibus), Puppet 3.3.2 (Vendor repo)#VMware#https://dl.dropboxusercontent.com/s/r5okkx8330h3tzh/vagrant-centos-5.10-x86_64.box#653MB
+CentOS 6.3 32bit (puppet)#VirtualBox#https://dl.dropbox.com/sh/9rldlpj3cmdtntc/chqwU6EYaZ/centos-63-32bit-puppet.box#651MB
+Ubuntu Server raring 13.04 amd64 (ruby 1.9.3, puppet, guest additions) #VirtualBox#https://dl.dropboxusercontent.com/u/547671/thinkstack-raring64.box#644MB
+Fedora 18 x86 Minimal (with Chef 11.4.0, VirtualBox Guest Additions 4.2.10 and rpmfusion enabled); md5sum 36b8aaf49421510a726b6175ee44e15b sha1sum d5a6a3c4ab1538105b18e6efba4d9479798a430e#VirtualBox#http://static.stasiak.at/fedora-18-x86-2.box#635MB
+OpenSuse 12.3 x86_64 (puppet)#VirtualBox#http://sourceforge.net/projects/opensusevagrant/files/12.3/opensuse-12.3-64.box/download#628MB
+Oracle Linux 5.9 x86_64 (Chef + Puppet) (src)#VirtualBox#https://dl.dropbox.com/s/n5o3gfdgjc3ekhl/oracle59.box#613MB
+Oracle Linux 6.4 x86_64 (Chef + Puppet) (src)#VirtualBox#https://dl.dropbox.com/s/zmitpteca72sjpx/oracle64.box#612MB
+Ubuntu Server Precise 12.04.3 amd64 (source) Kernel is ready for Docker (Docker not included) #VMware#https://oss-binaries.phusionpassenger.com/vagrant/boxes/ubuntu-12.04.3-amd64-vmwarefusion.box#612MB
+Puppetlabs Fedora 18 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/fedora-18-x64-vbox4210-nocm.box#611MB
+Oracle Linux 5.10 x86_64 (Chef + Puppet) (src)#VirtualBox#https://dl.dropbox.com/s/wsib87iudbzl56a/oraclelinux-5-x86_64.box#598MB
+Puppetlabs Fedora 18 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/fedora-18-x64-vbox4210.box#596MB
+Arch Linux 64 (2013-08-01)#VirtualBox#https://dl.dropboxusercontent.com/u/31112574/arch64-20130801.box#578MB
+Arch Linux x64 (2013-08-17)#VirtualBox#http://vagrant.srijn.net/archlinux-x64-2013-08-17.box#575MB
+Ubuntu Lucid32 lampp, mongodb, git, lithium, rockmongo#VirtualBox#http://www.hitarthindia.com/VM/lampp-mongo-git-lithium-rock.box#568MB
+Ubuntu 12.04.1 LTS x86_64 (Guest Additions 4.1.18)#VirtualBox#http://dl.dropbox.com/u/1537815/precise64.box#568MB
+Ubuntu Lucid32 lampp, mongodb, git#VirtualBox#http://www.hitarthindia.com/VM/lampp-mongo-git.box#566MB
+Archlinux 2011-08-19#VirtualBox#http://iweb.dl.sourceforge.net/project/vagrantarchlinx/2011.08.19/archlinux_2011.08.19.box#565MB
+Heroku Celadon Cedar#VirtualBox#http://dl.dropbox.com/u/1906634/heroku.box#555MB
+OpenSuse 12.2 x86 (puppet)#VirtualBox#http://sourceforge.net/projects/opensusevagrant/files/12.2/opensuse-12.2-32.box/download#554MB
+OpenSuse 12.2 x86_64 (puppet)#VirtualBox#http://sourceforge.net/projects/opensusevagrant/files/12.2/opensuse-12.2-64.box/download#552MB
+Ubuntu Server Precise 12.04.3 amd64 (source) Kernel is ready for Docker (Docker not included) #Virtualbox#https://oss-binaries.phusionpassenger.com/vagrant/boxes/ubuntu-12.04.3-amd64-vbox.box#547MB
+CentOS 6.4 x86_64 Minimal VMware Fusion (VMware Tools, Chef 11.4.0, Puppet 3.1.1)#VMware#https://dl.dropbox.com/u/5721940/vagrant-boxes/vagrant-centos-6.4-x86_64-vmware_fusion.box#545.94MB
+Ubuntu 13.10 amd64 for VMWare (with Chef, ruby1.9.3 and vmware-tools)#VMWare#http://brennovich.s3.amazonaws.com/saucy64_vmware_fusion.box#536M
+Arch Linux 64 (2013-07-28) (Puppet and Chef installed) #VirtualBox#https://dl.dropboxusercontent.com/u/9213047/arch64_2013-07-28.box#533MB
+OpenSuse 12.3 x86 (puppet)#VirtualBox#http://sourceforge.net/projects/opensusevagrant/files/12.3/opensuse-12.3-32.box/download#530MB
+Puppetlabs CentOS 5.9 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/centos-59-x64-vbox4210.box#530MB
+openSUSE 12.3 (x64) puppet chef (Details)#VirtualBox#http://bit.ly/openSUSE-12-3-virtualbox-box#527MB
+Puppetlabs CentOS 6.4 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box#523MB
+Puppetlabs CentOS 5.9 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/centos-59-x64-vbox4210-nocm.box#522MB
+Puppetlabs CentOS 6.4 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210-nocm.box#521MB
+CentOS 6.4 x86_64 2013-07-01 -- With development tools (gcc, etc...). Works on VBox 4.2.14!#VirtualBox#http://shonky.info/centos64.box#519.1MB
+Puppetlabs SLES 11sp1 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/sles-11sp1-x64-vbox4210.box#519MB
+Ubuntu Maverick 64#VirtualBox#http://mathie-vagrant-boxes.s3.amazonaws.com/maverick64.box#515MB
+Archlinux 2013-08-09#VirtualBox#https://downloads.sourceforge.net/project/vagrant-archlinux/vagrant-archlinux.box#512M
+Oracle Linux 6.4 x86_64 VBox 4.2.16 puppet chef (src)#VirtualBox#https://dl.dropbox.com/sh/yim9oyqajopoiqs/G-XIEmQJMb/oracle64-64.box#509MB
+Ubuntu Server 13.10 amd64 (Chef 11.8.0, VMware tools)#VMWare#http://shopify-vagrant.s3.amazonaws.com/ubuntu-13.10_vmware.box#501MB
+CentOS 6.2 32bit (puppet)#VirtualBox#https://dl.dropbox.com/sh/9rldlpj3cmdtntc/56JW-DSK35/centos-62-32bit-puppet.box#501MB
+Puppetlabs SLES 11sp1 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/sles-11sp1-x64-vbox4210-nocm.box#500MB
+Ubuntu Server 13.04 x64 Raring Ringtail (VirtualBox Guest Additions 4.2.12, Chef 11.4.4, Puppet 2.7.18)#VirtualBox#http://goo.gl/Y4aRr#498MB
+Debian Squeeze i386 6.0.7 (Chef 10.18.2, Puppet 2.6.2, VirtualBox 4.2.6, nfs-common 1.2.2)#VirtualBox#http://dl.dropbox.com/u/40989391/vagrant-boxes/debian-squeeze-i386.box#496.78MB
+CentOS 6.4 x86_64 Minimal (VirtualBox Guest Additions 4.2.16, Chef 11.6.0, Puppet 3.2.3)#VirtualBox#http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130731.box#494MB
+Oracle Linux 6.4 i386 VBox 4.2.16 puppet chef (src)#VirtualBox#https://dl.dropbox.com/sh/yim9oyqajopoiqs/cx4lB6NnZU/oracle64-32.box#472MB
+Ubuntu Server Precise 12.04 amd64 (Chef 11.8.0, VMware Tools)#VMware#http://shopify-vagrant.s3.amazonaws.com/ubuntu-12.04_vmware.box#470.7MB
+Funtoo 2013.06 amd64 (Chef omnibus 11.4.4, VirtualBox 4.2.12)#VirtualBox#https://lxmx-vm.s3.amazonaws.com/vagrant/boxes/lxmx_funtoo-2013.06_chef-11.4.4.box#467MB
+Arch Linux 64 (2013-07-26) - Chef 11.6.0 from gem, Ruby from pacman#VirtualBox#http://iweb.dl.sourceforge.net/project/flowboard-vagrant-boxes/arch64-2013-07-26-chef.box#466.7 MB
+Debian Wheezy 7.0 amd64 (Minimal Install + Puppet)#VirtualBox#https://www.dropbox.com/s/23gupgb0xompvkm/Wheezy64.box?dl=1#462MB
+CentOS 6.4 i386 Minimal (VirtualBox Guest Additions 4.2.16, Chef 11.6.0, Puppet 3.2.3)#VirtualBox#http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-i386-v20130731.box#459MB
+Scientific Linux 6 64 chefclient0.10#VirtualBox#http://download.frameos.org/sl6-64-chefclient-0.10.box#459MB
+Opscode centos 5#VirtualBox#http://opscode-vagrant-boxes.s3.amazonaws.com/centos5-gems.box#458MB
+Debian Wheezy amd64 (Puppet, VirtualBox)#VirtualBox#https://dl.dropboxusercontent.com/u/86066173/debian-wheezy.box#455MB
+Ubuntu Server Precise 12.04.3 amd64 Kernel is ready for Docker (Docker not included) #VMware#http://nitron-vagrant.s3-website-us-east-1.amazonaws.com/vagrant_ubuntu_12.04.3_amd64_vmware.box#447MB
+Ubuntu 12.04.2 Server amd64 for VMWare Fusion and Chef Omnibus 11#VMware#http://grahamc.com/vagrant/ubuntu-12.04.2-server-amd64-vmware-fusion.box#446M
+CentOS 6.3 x86_64 + Chef 10.14.2 + VirtualBox 4.1.22 (with guest additions)#VirtualBox#https://s3.amazonaws.com/itmat-public/centos-6.3-chef-10.14.2.box#445MB
+Oracle Linux 5.9 x86_64 VBox 4.2.16 puppet chef (src)#VirtualBox#https://dl.dropbox.com/sh/yim9oyqajopoiqs/hMiT_SsOYx/oracle59-64.box#445MB
+CentOS 6.3 32bit (Ruby 1.8.7 & Chef 10.14.2)#VirtualBox#http://tom.davidson.me.uk/dev/vagrant/centos63-32.box#443MB
+CentOS 6.5 amd64 for vagrant-lxc with Puppet 3.3.2#Vagrant-LXC#https://dl.dropboxusercontent.com/s/x1085661891dhkz/lxc-centos6.5-2013-12-02.box#435M
+Arch Linux 64 (2013-07-26) - Base Install#VirtualBox#http://iweb.dl.sourceforge.net/project/flowboard-vagrant-boxes/arch64-2013-07-26-minimal.box#433.2 MB
+Debian Squeeze 6.0.8 amd64 (Chef 11.8.0, VMware tools)#VMware#http://shopify-vagrant.s3.amazonaws.com/debian-6.0.8_vmware.box#428.3MB
+Ubuntu 12.04.2 Server i386 with VirtualBox Guest Additions v4.2.6, Chef Omnibus 11#VirtualBox#http://grahamc.com/vagrant/ubuntu-12.04.2-i386-chef-11-omnibus.box#428M
+CentOS 5.6 64 Packages (puppet 2.6.10 & chef 0.10.6 from RPM, VirtualBox 4.2.0)#VirtualBox#https://dl.dropbox.com/u/7196/vagrant/CentOS-56-x64-packages-puppet-2.6.10-chef-0.10.6.box#420MB
+Ubuntu Raring Ringtail (13.04) i386 Minimal (minimal = rvm, ruby-2.0.0p247, gem, chef, puppet)#VirtualBox#https://dl.dropboxusercontent.com/u/4387941/vagrant-boxes/ubuntu-13.04-mini-i386.box#420MB
+Gentoo 2013.10.24 amd64 (chef, puppet) on 2013.10.30 [src] #VirtualBox#https://dl.dropboxusercontent.com/s/qubuaqiizvfpsyx/gentoo-20131024-amd64.box#416.4 MB
+Gentoo 2013.10.29 i686 (chef, puppet) on 2013.10.30 [src] #VirtualBox#https://dl.dropboxusercontent.com/s/xfl63k64zliixid/gentoo-20131029-i686.box#413.1 MB
+Ubuntu precise 64 with some perl dependencies and few other essentials#VirtualBox#https://dl.dropbox.com/u/5595111/precise64-kohadeps.box#413MB
+Oracle Linux 5.9 i386 VBox 4.2.16 puppet chef (src)#VirtualBox#https://dl.dropbox.com/sh/yim9oyqajopoiqs/kXejEiEBAO/oracle59-32.box#412MB
+Debian 6 Squeeze x64 configured according to documentation#VirtualBox#http://www.emken.biz/vagrant-boxes/debsqueeze64.box#408MB
+Arch Linux_2013.11 x64 (vanilla)#VirtualBox#https://dl.dropboxusercontent.com/u/6750592/Arch_Linux_2013.11_x64.box#406.8MB
+Ubuntu Raring 64 (13.04) Vanilla (source) (vanilla = no ruby, gem, chef, puppet) #VirtualBox#http://goo.gl/ceHWg#405MB
+Ubuntu 12.10 Quantal x86_64 (Guest Additions 4.2.2)#VirtualBox#https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box#402MB
+Fedora 19 x86_64 (Puppet, VirtualBox)#VirtualBox#https://dl.dropboxusercontent.com/u/86066173/fedora-19.box#400MB
+Puppetlabs Ubuntu 12.04.2 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210.box#400MB
+Debian squeeze 32#VirtualBox#http://mathie-vagrant-boxes.s3.amazonaws.com/debian_squeeze_32.box#397MB
+Arch Linux x86_64 (2013-08)#VirtualBox#https://googledrive.com/host/0B_BLFE4aPn5zUVpyaHdLanVnMTg/vagrant-archlinux-2013-8.box#394MB
+Ubuntu raring 64 VMWare#VMware#https://s3.amazonaws.com/life360-vagrant/raring64.box#393MB
+Severalnines ClusterControl, Database Cluster Deployment Scripts, VBox 4.2.10, Ubuntu 12.04 LTS (How-to)#VirtualBox#https://googledrive.com/host/0B-J3zLLFd9HMLUhkckZBWi1xVlE/s9s_clustercontrol.box#390MB
+Ubuntu 11.04 server amd64#VirtualBox#http://dl.dropbox.com/u/7490647/talifun-ubuntu-11.04-server-amd64.box#390MB
+Ubuntu Server 12.04.1 i868 (VirtualBox 4.2.1)#VirtualBox#http://dl.dropbox.com/u/4031118/Vagrant/ubuntu-12.04.1-server-i686-virtual.box#389MB
+Aegir-up LAMP (Debian Squeeze 6.0.4 64-bit)#VirtualBox#http://ergonlogic.com/files/boxes/debian-LAMP-current.box#388MB
+Debian Wheezy 7.1 amd64 (french) with Chef 11.4.4 and VirtualBox 4.1.18 (2013/06/19)#VirtualBox#http://downloads.shadoware.org/wheezy64.box#388MB
+Ubuntu Server Precise 12.04.3 amd64 Kernel is ready for Docker (Docker not included) #Virtualbox#http://nitron-vagrant.s3-website-us-east-1.amazonaws.com/vagrant_ubuntu_12.04.3_amd64_virtualbox.box#380MB
+Scientific Linux 6 64 minimal#VirtualBox#http://lyte.id.au/vagrant/sl6-64-lyte.box#376M
+Ubuntu 12.04 amd64 for with raring kernel and docker 0.6.4#VirtualBox#http://bit.ly/dockerprecise64#374M
+Debian Squeeze amd64 (with VirtualBox 4.2.4)#VirtualBox#http://dl.dropbox.com/u/54390273/vagrantboxes/Squeeze64_VirtualBox4.2.4.box#372MB
+Ubuntu 12.04.2 AMD64 (Chef 11 installed via Omnibus; VirtualBox 4.2.6; Standard Puppet)#VirtualBox#http://grahamc.com/vagrant/ubuntu-12.04-omnibus-chef.box#372M
+Ubuntu 11.04 server i386#VirtualBox#http://dl.dropbox.com/u/7490647/talifun-ubuntu-11.04-server-i386.box#372MB
+Opscode ubuntu 10.04#VirtualBox#http://opscode-vagrant-boxes.s3.amazonaws.com/ubuntu10.04-gems.box#367MB
+Minimal CentOS 6.0#VirtualBox#http://dl.dropbox.com/u/9227672/CentOS-6.0-x86_64-netboot-4.1.6.box#362MB
+FreeBSD 9.2 i386 (UFS, VirtualBox Guest Additions 4.2.18, pkgng enabled, Python 2.7) [source] #VirtualBox#http://iris.hosting.lv/freebsd-9.2-i386.box#360MB
+Gentoo 2013.05 amd64 (Chef omnibus 11.4.4, VirtualBox 4.2.12)#VirtualBox#https://lxmx-vm.s3.amazonaws.com/vagrant/boxes/lxmx_gentoo-2013.05_chef-11.4.4.box#357MB
+CentOS 5.9 x86_64 minimal + guest additions, puppet, chef#VirtualBox#http://tag1consulting.com/files/centos-5.9-x86-64-minimal.box#356MB
+Debian Wheezy 7.2 amd64 (VirtualBox Guest Additions 4.3.0, OpenResty 1.4.3.1) (2013/10/31) (src)#VirtualBox#https://dl.dropboxusercontent.com/s/odnew2tnliqft9o/debian7-openresty.box#355MB
+Ubuntu Server 12.10 amd64 Minimal (VirtualBox 4.2.6)#VirtualBox#http://goo.gl/wxdwM#354MB
+Ubuntu Raring 32 (13.04) Vanilla (source) (vanilla = no ruby, gem, chef, puppet) #VirtualBox#http://goo.gl/y79mW#353MB
+Puppetlabs Ubuntu 12.04.2 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210-nocm.box#352MB
+CentOS 5.8 x86_64 minimal + guest additions, puppet, chef#VirtualBox#http://tag1consulting.com/files/centos-5.8-x86-64-minimal.box#349MB
+Ubuntu 10.04.4 LTS Lucid x86_64 (Apache 2.2.14, PHP 5.3.2, MySQL 5.1.66)#VirtualBox#https://dl.dropbox.com/u/14741389/vagrantboxes/lucid64-lamp.box#343MB
+Official Ubuntu 12.04 daily Cloud Image amd64 (VirtualBox 4.1.12)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box#341M
+Official Ubuntu 12.04 daily Cloud Image i386 (VirtualBox 4.1.12)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-i386-vagrant-disk1.box#329M
+Ubuntu precise 64 VirtualBox#VirtualBox#http://files.vagrantup.com/precise64.box#323MB
+Puppetlabs Ubuntu 10.04.4 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-10044-x64-vbox4210.box#323MB
+Ubuntu precise 64 VMWare#VMware#http://files.vagrantup.com/precise64_vmware.box#321MB
+Puppetlabs Ubuntu 10.04.4 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-10044-x64-vbox4210-nocm.box#313MB
+CentOS 6.3 x86_64 minimal#VirtualBox#https://dl.dropbox.com/u/7225008/Vagrant/CentOS-6.3-x86_64-minimal.box#310MB
+Official Ubuntu 13.10 daily Cloud Image amd64 (Development release, No Guest Additions)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/saucy/current/saucy-server-cloudimg-amd64-vagrant-disk1.box#309M
+Official Ubuntu 13.10 daily Cloud Image i386 (Development release, No Guest Additions)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/saucy/current/saucy-server-cloudimg-i386-vagrant-disk1.box#309M
+Official Ubuntu 13.04 daily Cloud Image i386 (No Guest Additions)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-i386-vagrant-disk1.box#305M
+OpenBSD 5.3 64-bit#VirtualBox#https://dl.dropboxusercontent.com/u/12089300/VirtualBox/openbsd53_amd64.box#303MB
+Official Ubuntu 13.04 daily Cloud Image amd64 (No Guest Additions)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box#303M
+Puppetlabs Debian 7.0rc1 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/debian-70rc1-x64-vbox4210.box#302MB
+Debian Wheezy (7.0.0) amd64, with Ruby 1.9.1, Puppet 3.2.1, Chef 11.4.4, VirtualBox 4.2.4, built with Veewee 0.3.7 (2013/06/12) #VirtualBox#https://www.dropbox.com/s/si19tbftilcuipz/debian-7.0-amd64.box#302MB
+CentOS 6.4 x86_64 [notes] #VirtualBox#https://github.com/2creatives/vagrant-centos/releases/download/v0.1.0/centos64-x86_64-20131030.box#301.5 MB
+Ubuntu precise 32 VirtualBox#VirtualBox#http://files.vagrantup.com/precise32.box#299MB
+Official Ubuntu 12.10 daily Cloud Image i386 (No Guest Additions)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/quantal/current/quantal-server-cloudimg-i386-vagrant-disk1.box#299M
+Official Ubuntu 12.10 daily Cloud Image amd64 (No Guest Additions)#VirtualBox#http://cloud-images.ubuntu.com/vagrant/quantal/current/quantal-server-cloudimg-amd64-vagrant-disk1.box#298M
+Aegir-up Aegir (Debian Squeeze 6.0.4 64-bit) #VirtualBox#http://ergonlogic.com/files/boxes/aegir-current.box#297MB
+OpenBSD 5.3 64-bit (Vagrant 1.2)#VirtualBox#https://dl.dropboxusercontent.com/u/12089300/VirtualBox/openbsd53_amd64_vagrant12.box#296MB
+Debian Wheezy 7.0 amd64 (British) Puppet 3.2.1, Chef 11.4.4, built with Veewee 0.3.7#VirtualBox#http://vagrantboxes.footballradar.com/wheezy64.box#295.8MB
+Debian Wheezy 7.2 amd64 (VirtualBox Guest Additions 4.3.0) (2013/10/19)#VirtualBox#https://dl.dropboxusercontent.com/u/197673519/debian-7.2.0.box#295MB
+Debian Squeeze 6.0.7 amd64 (french) with Puppet 3.1.1, Chef 11.4.0 and VirtualBox 4.2.12, built with Veewee 0.3.7 (2013/04/20)#VirtualBox#http://public.sphax3d.org/vagrant/squeeze64.box#294.19MB
+Debian Squeeze amd64 (Chef 10.24.4, Puppet 3.1.1, VirtualBox 4.2.12)#VirtualBox#https://dl.dropboxusercontent.com/u/13054557/vagrant_boxes/debian-squeeze.box#287MB
+Aegir-up Debian (Debian Squeeze 6.0.4 64-bit)#VirtualBox#http://ergonlogic.com/files/boxes/debian-current.box#283MB
+Puppetlabs Debian 7.0rc1 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/debian-70rc1-x64-vbox4210-nocm.box#281MB
+Debian Wheezy (7.0.0) amd64, no Ruby/Puppet/Chef, VirtualBox 4.2.4, built with Veewee 0.3.7 (2013/06/12) #VirtualBox#https://www.dropbox.com/s/gxouugzbnjlny1k/debian-7.0-amd64-minimal.box#280MB
+Ubuntu lucid 64#VirtualBox#http://files.vagrantup.com/lucid64.box#280MB
+Gentoo 2013.10.24 amd64 minimal on 2013.10.30 [src] #VirtualBox#https://dl.dropboxusercontent.com/s/mfurnvstqoj8w47/gentoo-20131024-amd64-minimal.box#279.7 MB
+OpenBSD 5.0 (amd64) puppet chef pkg ports#VirtualBox#https://github.com/downloads/stefancocora/openbsd_amd64-vagrant/openbsd50_amd64.box#279.7MB
+Minimal CentOS 5.6#VirtualBox#http://dl.dropbox.com/u/9227672/centos-5.6-x86_64-netinstall-4.1.6.box#277MB
+Debian Squeeze 6.0.6 32 - Vanilla (No Ruby, no puppet, only Chef 10.14 from omnibus installer)#VirtualBox#https://dl.dropbox.com/u/2289657/squeeze32-vanilla.box#276MB
+Debian Squeeze amd64 (with Puppet, Chef and VirtualBox 4.2.1)#VirtualBox#http://f.willianfernandes.com.br/vagrant-boxes/DebianSqueeze64.box#272MB
+CentOS 6.5 x86_64 [notes] #VirtualBox#https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box#271.2 MiB
+Puppetlabs Debian 6.0.7 x86_64, VBox 4.2.10 (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/debian-607-x64-vbox4210.box#271MB
+Ubuntu Server 12.04 amd64 (with Puppet, Chef and VirtualBox 4.2.1)#VirtualBox#http://goo.gl/8kWkm#267MB
+OpenBSD 5.0 (i386) puppet chef pkg ports#VirtualBox#https://github.com/downloads/stefancocora/openbsd_i386-vagrant/openbsd50_i386.box#266.3MB
+Gentoo 2013.10.29 amd64 minimal on 2013.10.30 [src] #VirtualBox#https://dl.dropboxusercontent.com/s/0e23qmbo97wb5x2/gentoo-20131029-i686-minimal.box#266.2 MB
+Debian squeeze 64 (French (Swiss) keyboard layout)#VirtualBox#http://dl.dropbox.com/u/937870/VMs/squeeze64.box#264MB
+Ubuntu lucid 32#VirtualBox#http://files.vagrantup.com/lucid32.box#261MB
+CentOS 6.4 amd64 for vagrant-lxc with Puppet 3.3.1#Vagrant-LXC#https://dl.dropboxusercontent.com/s/eukkxp5mp2l5h53/lxc-centos6.4-2013-10-24.box#251M
+Puppetlabs Debian 6.0.7 x86_64, VBox 4.2.10, No Puppet or Chef (src)#VirtualBox#http://puppet-vagrant-boxes.puppetlabs.com/debian-607-x64-vbox4210-nocm.box#249MB
+Debian Wheezy 7.0 amd64 - Vanilla (No Ruby, no puppet, no Chef)#VirtualBox#https://dl.dropboxusercontent.com/s/xymcvez85i29lym/vagrant-debian-wheezy64.box#242MB
+FreeBSD 9.2 x86_64 Minimal (VirtualBox, ZFS)#VirtualBox#https://wunki.org/files/freebsd-9.2-amd64-wunki.box#226MB
+Debian Wheezy i386 minimal from grml-debootstrap, italian layout, w/ guest additions (2013/10/23)#VirtualBox#http://tools.swergroup.com/downloads/wheezy32.box#188MB
+Debian Squeeze amd64 (Puppet 3.2.3, LXC, 2013.07.27)#Vagrant-LXC#https://dl.dropboxusercontent.com/u/67225617/lxc-vagrant/lxc-squeeze64-puppet3-2013-07-27.box#106.17MB
+Debian Wheezy amd64 (Puppet 3.2.3, LXC, 2013.07.27)#Vagrant-LXC#https://dl.dropboxusercontent.com/u/67225617/lxc-vagrant/lxc-wheezy64-puppet3-2013-07-27.box#102.5MB
+Ubuntu 12.04 amd64 for vagrant-lxc with Puppet 3.1.1#Vagrant-LXC#http://dl.dropbox.com/u/13510779/lxc-precise-amd64-2013-07-12.box#94M
+Ubuntu 12.10 amd64 for vagrant-lxc with Puppet 3.1.1#Vagrant-LXC#http://dl.dropbox.com/u/13510779/lxc-quantal-amd64-2013-07-12.box#94M
+Ubuntu 13.04 amd64 for vagrant-lxc with Puppet 3.1.1#Vagrant-LXC#http://dl.dropbox.com/u/13510779/lxc-raring-amd64-2013-07-12.box#92M
+Openmandriva2013.0 x86_64 (LXC, 2013.10.21)#Vagrant-LXC#http://bit.ly/vagrant-lxc-openmandriva2013-0-x86_64-2013-10-21#88MB
