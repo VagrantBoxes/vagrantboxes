@@ -2,6 +2,7 @@
 
 // This script doesn't auto-detect puppet correctly because we look
 // for the pattern 'puppet' which obviously matches puppetlabs also
+// and some people use 'no puppet' in the box name as well.
 
 $rows = csv_to_array('data.csv', '#');
 
