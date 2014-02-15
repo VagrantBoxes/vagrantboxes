@@ -36,6 +36,10 @@
         "slug": "openmandriva"
     },
     {
+        "name": "Others",
+        "slug": "others"
+    },
+    {
         "name": "OpenSUSE",
         "slug": "opensuse"
     },
