@@ -189,28 +189,28 @@ class Box
 
     private function init_features() {
         $this->features = (object) array(
-            'guest_additions' => '',
-            'vmware_tools' => '',
-            'puppet' => '',
-            'chef' => '',
+            'guest_additions' => false,
+            'vmware_tools' => false,
+            'puppet' => false,
+            'chef' => false,
             'webserver' => (object) array(
-                'apache' => '',
-                'lighttpd' => '',
-                'nginx' => ''
+                'apache' => false,
+                'lighttpd' => false,
+                'nginx' => false
             ),
             'interpreters' => (object) array(
-                'ruby' => '',
-                'php' => '',
-                'python' => ''
+                'ruby' => false,
+                'php' => false,
+                'python' => false
             ),
             'database' => (object) array(
-                'mysql' => '',
-                'mongodb' => ''
+                'mysql' => false,
+                'mongodb' => false
             ),
             'vcs' => (object) array(
-                'git' => '',
-                'svn' => '',
-                'hg' => ''
+                'git' => false,
+                'svn' => false,
+                'hg' => false
             ),
         );
     }
