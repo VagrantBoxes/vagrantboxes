@@ -1,5 +1,8 @@
 <?php
 
+// This script doesn't auto-detect puppet correctly because we look
+// for the pattern 'puppet' which obviously matches puppetlabs also
+
 $rows = csv_to_array('data.csv', '#');
 
 $distros = json_decode(file_get_contents('_distributions.json'));
