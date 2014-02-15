@@ -165,7 +165,7 @@ class Box
         $this->url = trim($url);
         $this->size = (int) $size;
 
-        $this->init_features();
+        $this->init_features($name);
         $this->init_hash();
         $this->init_version();
     }
@@ -187,12 +187,18 @@ class Box
         );
     }
 
-    private function init_features() {
+    private function init_features($name) {
         $this->features = (object) array(
             'guest_additions' => false,
             'vmware_tools' => false,
-            'puppet' => false,
-            'chef' => false,
+            'puppet' => is_int(strpos(
+                strtolower($name),
+                'puppet'
+            )),
+            'chef' => is_int(strpos(
+                strtolower($name),
+                'chef'
+            )),
             'webserver' => (object) array(
                 'apache' => false,
                 'lighttpd' => false,

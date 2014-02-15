@@ -17,7 +17,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -64,7 +64,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,

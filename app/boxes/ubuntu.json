@@ -64,7 +64,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -157,7 +157,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -440,7 +440,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -534,7 +534,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -580,8 +580,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -628,7 +628,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -722,7 +722,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -769,7 +769,7 @@
             "guest_additions": false,
             "vmware_tools": false,
             "puppet": false,
-            "chef": false,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -815,8 +815,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -909,8 +909,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -1003,7 +1003,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -1332,8 +1332,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -1520,8 +1520,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -1567,8 +1567,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -1802,7 +1802,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -1896,8 +1896,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -2319,8 +2319,8 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
+            "puppet": true,
+            "chef": true,
             "webserver": {
                 "apache": false,
                 "lighttpd": false,
@@ -2413,7 +2413,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -2460,7 +2460,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
@@ -2507,7 +2507,7 @@
         "features": {
             "guest_additions": false,
             "vmware_tools": false,
-            "puppet": false,
+            "puppet": true,
             "chef": false,
             "webserver": {
                 "apache": false,
