@@ -97,6 +97,7 @@ function is_64_bit($name)
 function is_32_bit($name)
 {
     $archs = array(
+        'x86',
         'i386',
         '32-bit',
         '32bit',
