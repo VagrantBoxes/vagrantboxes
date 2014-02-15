@@ -5,7 +5,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "32-bit",
         "provider": "VirtualBox",
         "size": 360,
         "url": "http:\/\/iris.hosting.lv\/freebsd-9.2-i386.box",
@@ -52,7 +52,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 226,
         "url": "https:\/\/wunki.org\/files\/freebsd-9.2-amd64-wunki.box",

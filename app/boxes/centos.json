@@ -1,43 +1,43 @@
 [
     {
-        "creator": "",
-        "created": "",
-        "name": "CentOS",
-        "url": "http://yum.mnxsolutions.com/vagrant/centos_56_32.box",
-        "architecture": "32-bit",
+        "name": "CentOS 5.8 x86_64",
         "version": {
             "name": "",
-            "number": "5.6"
+            "number": ""
         },
+        "architecture": "64-bit",
         "provider": "VirtualBox",
-        "size": "804",
-        "features": {
-            "guest_additions": false,
-            "vmware_tools": false,
-            "puppet": false,
-            "chef": false,
-            "webserver": {
-                "apache": false,
-                "lighttpd": false,
-                "nginx": false
-            },
-            "interpreters": {
-                "ruby": false,
-                "php": false,
-                "python": false
-            },
-            "database": {
-                "mysql": false,
-                "mongodb": false
-            },
-            "vcs": {
-                "git": false,
-                "svn": false,
-                "hg": false
-            }
-        },
+        "size": 957,
+        "url": "https:\/\/dl.dropbox.com\/u\/17738575\/CentOS-5.8-x86_64.box",
         "source": "",
         "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
         "hash": {
             "md5sum": "",
             "sha1sum": "",
@@ -47,44 +47,44 @@
         }
     },
     {
-        "creator": "",
-        "created": "",
-        "name": "CentOS",
-        "url": "https://dl.dropbox.com/u/7196/vagrant/CentOS-56-x64-packages-puppet-2.6.10-chef-0.10.6.box",
-        "architecture": "64-bit",
+        "name": "CentOS 5.6 32",
         "version": {
             "name": "",
-            "number": "5.6"
+            "number": ""
         },
+        "architecture": "Unknown",
         "provider": "VirtualBox",
-        "size": "420",
-        "features": {
-            "guest_additions": false,
-            "vmware_tools": false,
-            "puppet": true,
-            "chef": true,
-            "webserver": {
-                "apache": false,
-                "lighttpd": false,
-                "nginx": false
-            },
-            "interpreters": {
-                "ruby": false,
-                "php": false,
-                "python": false
-            },
-            "database": {
-                "mysql": false,
-                "mongodb": false
-            },
-            "vcs": {
-                "git": false,
-                "svn": false,
-                "hg": false
-            }
-        },
+        "size": 804,
+        "url": "http:\/\/yum.mnxsolutions.com\/vagrant\/centos_56_32.box",
         "source": "",
         "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
         "hash": {
             "md5sum": "",
             "sha1sum": "",
@@ -94,44 +94,44 @@
         }
     },
     {
-        "creator": "",
-        "created": "",
-        "name": "CentOS",
-        "url": "https://dl.dropboxusercontent.com/s/r5okkx8330h3tzh/vagrant-centos-5.10-x86_64.box",
-        "architecture": "64-bit",
+        "name": "CentOS 5.10 x86_64 Base, VMware Tools, Chef 11.6 (Omnibus), Puppet 3.3.2 (Vendor repo)",
         "version": {
             "name": "",
-            "number": "5.10"
+            "number": ""
         },
+        "architecture": "64-bit",
         "provider": "VMware",
-        "size": "653",
-        "features": {
-            "guest_additions": false,
-            "vmware_tools": true,
-            "puppet": true,
-            "chef": true,
-            "webserver": {
-                "apache": false,
-                "lighttpd": false,
-                "nginx": false
-            },
-            "interpreters": {
-                "ruby": false,
-                "php": false,
-                "python": false
-            },
-            "database": {
-                "mysql": false,
-                "mongodb": false
-            },
-            "vcs": {
-                "git": false,
-                "svn": false,
-                "hg": false
-            }
-        },
+        "size": 653,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/r5okkx8330h3tzh\/vagrant-centos-5.10-x86_64.box",
         "source": "",
         "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
         "hash": {
             "md5sum": "",
             "sha1sum": "",
@@ -141,44 +141,1078 @@
         }
     },
     {
-        "creator": "",
-        "created": "",
-        "name": "CentOS",
-        "url": "https://dl.dropboxusercontent.com/s/eukkxp5mp2l5h53/lxc-centos6.4-2013-10-24.box",
-        "architecture": "64-bit",
+        "name": "CentOS 6.3 32bit (puppet)",
         "version": {
             "name": "",
-            "number": "6.4"
+            "number": ""
         },
-        "provider": "Vagrant-LXC",
-        "size": "251",
-        "features": {
-            "guest_additions": false,
-            "vmware_tools": false,
-            "puppet": true,
-            "chef": false,
-            "webserver": {
-                "apache": false,
-                "lighttpd": false,
-                "nginx": false
-            },
-            "interpreters": {
-                "ruby": false,
-                "php": false,
-                "python": false
-            },
-            "database": {
-                "mysql": false,
-                "mongodb": false
-            },
-            "vcs": {
-                "git": false,
-                "svn": false,
-                "hg": false
-            }
-        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 651,
+        "url": "https:\/\/dl.dropbox.com\/sh\/9rldlpj3cmdtntc\/chqwU6EYaZ\/centos-63-32bit-puppet.box",
         "source": "",
         "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.4 x86_64 Minimal VMware Fusion (VMware Tools, Chef 11.4.0, Puppet 3.1.1)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 545,
+        "url": "https:\/\/dl.dropbox.com\/u\/5721940\/vagrant-boxes\/vagrant-centos-6.4-x86_64-vmware_fusion.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs CentOS 5.9 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 530,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/centos-59-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs CentOS 6.4 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 523,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/centos-64-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs CentOS 5.9 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 522,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/centos-59-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs CentOS 6.4 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 521,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/centos-64-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.4 x86_64 2013-07-01 -- With development tools (gcc, etc...). Works on VBox 4.2.14!",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 519,
+        "url": "http:\/\/shonky.info\/centos64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.2 32bit (puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 501,
+        "url": "https:\/\/dl.dropbox.com\/sh\/9rldlpj3cmdtntc\/56JW-DSK35\/centos-62-32bit-puppet.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.4 x86_64 Minimal (VirtualBox Guest Additions 4.2.16, Chef 11.6.0, Puppet 3.2.3)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 494,
+        "url": "http:\/\/developer.nrel.gov\/downloads\/vagrant-boxes\/CentOS-6.4-x86_64-v20130731.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.4 i386 Minimal (VirtualBox Guest Additions 4.2.16, Chef 11.6.0, Puppet 3.2.3)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 459,
+        "url": "http:\/\/developer.nrel.gov\/downloads\/vagrant-boxes\/CentOS-6.4-i386-v20130731.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Opscode centos 5",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 458,
+        "url": "http:\/\/opscode-vagrant-boxes.s3.amazonaws.com\/centos5-gems.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.3 x86_64 + Chef 10.14.2 + VirtualBox 4.1.22 (with guest additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 445,
+        "url": "https:\/\/s3.amazonaws.com\/itmat-public\/centos-6.3-chef-10.14.2.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.3 32bit (Ruby 1.8.7 & Chef 10.14.2)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 443,
+        "url": "http:\/\/tom.davidson.me.uk\/dev\/vagrant\/centos63-32.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.5 amd64 for vagrant-lxc with Puppet 3.3.2",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 435,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/x1085661891dhkz\/lxc-centos6.5-2013-12-02.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 5.6 64 Packages (puppet 2.6.10 & chef 0.10.6 from RPM, VirtualBox 4.2.0)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 420,
+        "url": "https:\/\/dl.dropbox.com\/u\/7196\/vagrant\/CentOS-56-x64-packages-puppet-2.6.10-chef-0.10.6.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Minimal CentOS 6.0",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 362,
+        "url": "http:\/\/dl.dropbox.com\/u\/9227672\/CentOS-6.0-x86_64-netboot-4.1.6.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 5.9 x86_64 minimal + guest additions, puppet, chef",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 356,
+        "url": "http:\/\/tag1consulting.com\/files\/centos-5.9-x86-64-minimal.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 5.8 x86_64 minimal + guest additions, puppet, chef",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 349,
+        "url": "http:\/\/tag1consulting.com\/files\/centos-5.8-x86-64-minimal.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.3 x86_64 minimal",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 310,
+        "url": "https:\/\/dl.dropbox.com\/u\/7225008\/Vagrant\/CentOS-6.3-x86_64-minimal.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.4 x86_64 [notes]",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 301,
+        "url": "https:\/\/github.com\/2creatives\/vagrant-centos\/releases\/download\/v0.1.0\/centos64-x86_64-20131030.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Minimal CentOS 5.6",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 277,
+        "url": "http:\/\/dl.dropbox.com\/u\/9227672\/centos-5.6-x86_64-netinstall-4.1.6.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.5 x86_64 [notes]",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 271,
+        "url": "https:\/\/github.com\/2creatives\/vagrant-centos\/releases\/download\/v6.5.1\/centos65-x86_64-20131205.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "CentOS 6.4 amd64 for vagrant-lxc with Puppet 3.3.1",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 251,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/eukkxp5mp2l5h53\/lxc-centos6.4-2013-10-24.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
         "hash": {
             "md5sum": "",
             "sha1sum": "",

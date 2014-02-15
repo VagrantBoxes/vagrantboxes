@@ -1,2 +1,49 @@
 [
+    {
+        "name": "Openmandriva2013.0 x86_64 (LXC, 2013.10.21)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 88,
+        "url": "http:\/\/bit.ly\/vagrant-lxc-openmandriva2013-0-x86_64-2013-10-21",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
 ]

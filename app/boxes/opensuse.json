@@ -1,2 +1,284 @@
 [
+    {
+        "name": "openSUSE 12.1 x64",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 665,
+        "url": "https:\/\/github.com\/jtperry\/OpenSuseVagrantBox",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenSuse 12.3 x86_64 (puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 628,
+        "url": "http:\/\/sourceforge.net\/projects\/opensusevagrant\/files\/12.3\/opensuse-12.3-64.box\/download",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenSuse 12.2 x86 (puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 554,
+        "url": "http:\/\/sourceforge.net\/projects\/opensusevagrant\/files\/12.2\/opensuse-12.2-32.box\/download",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenSuse 12.2 x86_64 (puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 552,
+        "url": "http:\/\/sourceforge.net\/projects\/opensusevagrant\/files\/12.2\/opensuse-12.2-64.box\/download",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenSuse 12.3 x86 (puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 530,
+        "url": "http:\/\/sourceforge.net\/projects\/opensusevagrant\/files\/12.3\/opensuse-12.3-32.box\/download",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "openSUSE 12.3 (x64) puppet chef (Details)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 527,
+        "url": "http:\/\/bit.ly\/openSUSE-12-3-virtualbox-box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": "",
+            "vmware_tools": "",
+            "puppet": "",
+            "chef": "",
+            "webserver": {
+                "apache": "",
+                "lighttpd": "",
+                "nginx": ""
+            },
+            "interpreters": {
+                "ruby": "",
+                "php": "",
+                "python": ""
+            },
+            "database": {
+                "mysql": "",
+                "mongodb": ""
+            },
+            "vcs": {
+                "git": "",
+                "svn": "",
+                "hg": ""
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
 ]

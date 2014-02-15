@@ -5,7 +5,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 519,
         "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/sles-11sp1-x64-vbox4210.box",
@@ -52,7 +52,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 500,
         "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/sles-11sp1-x64-vbox4210-nocm.box",

@@ -5,7 +5,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 657,
         "url": "http:\/\/download.frameos.org\/sl6-64-chefserver-0.10.box",
@@ -52,7 +52,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 459,
         "url": "http:\/\/download.frameos.org\/sl6-64-chefclient-0.10.box",
@@ -99,7 +99,7 @@
             "name": "",
             "number": ""
         },
-        "architecture": "",
+        "architecture": "64-bit",
         "provider": "VirtualBox",
         "size": 376,
         "url": "http:\/\/lyte.id.au\/vagrant\/sl6-64-lyte.box",
