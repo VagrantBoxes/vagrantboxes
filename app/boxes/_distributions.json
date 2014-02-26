@@ -44,10 +44,6 @@
         "slug": "opensuse"
     },
     {
-        "name": "SLES",
-        "slug": "sles"
-    },
-    {
         "name": "Oracle Linux",
         "slug": "oracle"
     },
@@ -62,6 +58,10 @@
     {
         "name": "Slackware",
         "slug": "slackware"
+    },
+    {
+        "name": "SLES",
+        "slug": "sles"
     },
     {
         "name": "Ubuntu",
