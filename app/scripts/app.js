@@ -4,8 +4,13 @@
 angular
     .module(
         'vagrantlistApp',
-        ['vagrantlistApp.services', 'vagrantlistApp.filters',
-            'ui.bootstrap', 'rzModule', 'ngResource', 'ngRoute']
+        [   'vagrantlistApp.services',
+            'vagrantlistApp.filters',
+            'vagrantlistApp.directives',
+            'ui.bootstrap',
+            'rzModule',
+            'ngResource',
+            'ngRoute' ]
     )
     .config(function ($routeProvider) {
         $routeProvider
