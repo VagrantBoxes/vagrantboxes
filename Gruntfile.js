@@ -147,9 +147,12 @@ module.exports = function (grunt) {
       }
     },
 
-
-
-
+    'gh-pages': {
+      options: {
+          base: 'dist'
+      },
+      src: ['**']
+    },
 
     // Renames files for browser caching purposes
     rev: {
