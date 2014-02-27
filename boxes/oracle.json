@@ -1,0 +1,378 @@
+[
+    {
+        "name": "Oracle Linux 6.5 x86_64 (Chef + Puppet) (src)",
+        "version": {
+            "name": "",
+            "number": "6.5"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 684,
+        "url": "https:\/\/dl.dropbox.com\/s\/613uhl43ekqzami\/oraclelinux-6-x86_64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 5.9 x86_64 (Chef + Puppet) (src)",
+        "version": {
+            "name": "",
+            "number": "5.9"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 613,
+        "url": "https:\/\/dl.dropbox.com\/s\/n5o3gfdgjc3ekhl\/oracle59.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 6.4 x86_64 (Chef + Puppet) (src)",
+        "version": {
+            "name": "",
+            "number": "6.4"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 612,
+        "url": "https:\/\/dl.dropbox.com\/s\/zmitpteca72sjpx\/oracle64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 5.10 x86_64 (Chef + Puppet) (src)",
+        "version": {
+            "name": "",
+            "number": "5.10"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 598,
+        "url": "https:\/\/dl.dropbox.com\/s\/wsib87iudbzl56a\/oraclelinux-5-x86_64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 6.4 x86_64 VBox 4.2.16 puppet chef (src)",
+        "version": {
+            "name": "",
+            "number": "6.4"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 509,
+        "url": "https:\/\/dl.dropbox.com\/sh\/yim9oyqajopoiqs\/G-XIEmQJMb\/oracle64-64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 6.4 i386 VBox 4.2.16 puppet chef (src)",
+        "version": {
+            "name": "",
+            "number": "6.4"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 472,
+        "url": "https:\/\/dl.dropbox.com\/sh\/yim9oyqajopoiqs\/cx4lB6NnZU\/oracle64-32.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 5.9 x86_64 VBox 4.2.16 puppet chef (src)",
+        "version": {
+            "name": "",
+            "number": "5.9"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 445,
+        "url": "https:\/\/dl.dropbox.com\/sh\/yim9oyqajopoiqs\/hMiT_SsOYx\/oracle59-64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Oracle Linux 5.9 i386 VBox 4.2.16 puppet chef (src)",
+        "version": {
+            "name": "",
+            "number": "5.9"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 412,
+        "url": "https:\/\/dl.dropbox.com\/sh\/yim9oyqajopoiqs\/kXejEiEBAO\/oracle59-32.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

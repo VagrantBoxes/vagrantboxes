@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Fedora 18 x86 Minimal (with Chef 11.4.0, VirtualBox Guest Additions 4.2.10 and rpmfusion enabled)",
+        "version": {
+            "name": "",
+            "number": "18"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 635,
+        "url": "http:\/\/static.stasiak.at\/fedora-18-x86-2.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "36b8aaf49421510a726b6175ee44e15b",
+            "sha1sum": "d5a6a3c4ab1538105b18e6efba4d9479798a430e",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Fedora 18 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "",
+            "number": "18"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 611,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/fedora-18-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Fedora 18 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "",
+            "number": "18"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 596,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/fedora-18-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Fedora 19 x86_64 (Puppet, VirtualBox)",
+        "version": {
+            "name": "",
+            "number": "19"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 400,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/86066173\/fedora-19.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

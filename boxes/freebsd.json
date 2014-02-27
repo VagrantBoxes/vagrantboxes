@@ -1,0 +1,96 @@
+[
+    {
+        "name": "FreeBSD 9.2 i386 (UFS, VirtualBox Guest Additions 4.2.18, pkgng enabled, Python 2.7) [source]",
+        "version": {
+            "name": "",
+            "number": "9.2"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 360,
+        "url": "http:\/\/iris.hosting.lv\/freebsd-9.2-i386.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": true
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "FreeBSD 9.2 x86_64 Minimal (VirtualBox, ZFS)",
+        "version": {
+            "name": "",
+            "number": "9.2"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 226,
+        "url": "https:\/\/wunki.org\/files\/freebsd-9.2-amd64-wunki.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

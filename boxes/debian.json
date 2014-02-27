@@ -1,0 +1,1365 @@
+[
+    {
+        "name": "Debian Squeeze i386 6.0.7 (Chef 10.18.2, Puppet 2.6.2, VirtualBox 4.2.6, nfs-common 1.2.2)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.7"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 496,
+        "url": "http:\/\/dl.dropbox.com\/u\/40989391\/vagrant-boxes\/debian-squeeze-i386.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy 7.0 amd64 (Minimal Install + Puppet)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 462,
+        "url": "https:\/\/www.dropbox.com\/s\/23gupgb0xompvkm\/Wheezy64.box?dl=1",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy amd64 (Puppet, VirtualBox)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 455,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/86066173\/debian-wheezy.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze 6.0.8 amd64 (Chef 11.8.0, VMware tools)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.8"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 428,
+        "url": "http:\/\/shopify-vagrant.s3.amazonaws.com\/debian-6.0.8_vmware.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": true,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian 6 Squeeze x64",
+        "version": {
+            "name": "Squeeze",
+            "number": "6"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 408,
+        "url": "http:\/\/www.emken.biz\/vagrant-boxes\/debsqueeze64.box",
+        "source": "",
+        "comment": "Configured according to documentation",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian squeeze 32",
+        "version": {
+            "name": "Sqeeze",
+            "number": "6"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 397,
+        "url": "http:\/\/mathie-vagrant-boxes.s3.amazonaws.com\/debian_squeeze_32.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Aegir-up LAMP (Debian Squeeze 6.0.4 64-bit)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.4"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 388,
+        "url": "http:\/\/ergonlogic.com\/files\/boxes\/debian-LAMP-current.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": true,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": true,
+                "python": false
+            },
+            "database": {
+                "mysql": true,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy 7.1 amd64 (french) with Chef 11.4.4 and VirtualBox 4.1.18 (2013\/06\/19)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.1"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 388,
+        "url": "http:\/\/downloads.shadoware.org\/wheezy64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-06-19",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze amd64 (with VirtualBox 4.2.4)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 372,
+        "url": "http:\/\/dl.dropbox.com\/u\/54390273\/vagrantboxes\/Squeeze64_VirtualBox4.2.4.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy 7.2 amd64 (VirtualBox Guest Additions 4.3.0, OpenResty 1.4.3.1) (2013\/10\/31) (src)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.2"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 355,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/odnew2tnliqft9o\/debian7-openresty.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-10-31",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Debian 7.0rc1 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0rc1"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 302,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/debian-70rc1-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy (7.0.0) amd64, with Ruby 1.9.1, Puppet 3.2.1, Chef 11.4.4, VirtualBox 4.2.4, built with Veewee 0.3.7 (2013\/06\/12)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0.0"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 302,
+        "url": "https:\/\/www.dropbox.com\/s\/si19tbftilcuipz\/debian-7.0-amd64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": true,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Aegir-up Aegir (Debian Squeeze 6.0.4 64-bit)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.4"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 297,
+        "url": "http:\/\/ergonlogic.com\/files\/boxes\/aegir-current.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy 7.0 amd64 (British) Puppet 3.2.1, Chef 11.4.4, built with Veewee 0.3.7",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 295,
+        "url": "http:\/\/vagrantboxes.footballradar.com\/wheezy64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy 7.2 amd64 (VirtualBox Guest Additions 4.3.0) (2013\/10\/19)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.2"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 295,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/197673519\/debian-7.2.0.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-10-19",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze 6.0.7 amd64 (french) with Puppet 3.1.1, Chef 11.4.0 and VirtualBox 4.2.12, built with Veewee 0.3.7 (2013\/04\/20)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.7"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 294,
+        "url": "http:\/\/public.sphax3d.org\/vagrant\/squeeze64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze amd64 (Chef 10.24.4, Puppet 3.1.1, VirtualBox 4.2.12)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 287,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/13054557\/vagrant_boxes\/debian-squeeze.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Aegir-up Debian (Debian Squeeze 6.0.4 64-bit)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.4"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 283,
+        "url": "http:\/\/ergonlogic.com\/files\/boxes\/debian-current.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Debian 7.0rc1 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0rc1"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 281,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/debian-70rc1-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy (7.0.0) amd64, no Ruby\/Puppet\/Chef, VirtualBox 4.2.4, built with Veewee 0.3.7",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0.0"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 280,
+        "url": "https:\/\/www.dropbox.com\/s\/gxouugzbnjlny1k\/debian-7.0-amd64-minimal.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-06-12",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze 6.0.6 32 - Vanilla (No Ruby, no puppet, only Chef 10.14 from omnibus installer)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.6"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 276,
+        "url": "https:\/\/dl.dropbox.com\/u\/2289657\/squeeze32-vanilla.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze amd64 (with Puppet, Chef and VirtualBox 4.2.1)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 272,
+        "url": "http:\/\/f.willianfernandes.com.br\/vagrant-boxes\/DebianSqueeze64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Debian 6.0.7 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.7"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 271,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/debian-607-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian squeeze 64 (French (Swiss) keyboard layout)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 264,
+        "url": "http:\/\/dl.dropbox.com\/u\/937870\/VMs\/squeeze64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Debian 6.0.7 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6.0.7"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 249,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/debian-607-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy 7.0 amd64 - Vanilla (No Ruby, no puppet, no Chef)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7.0"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 242,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/xymcvez85i29lym\/vagrant-debian-wheezy64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy i386 minimal from grml-debootstrap, italian layout",
+        "version": {
+            "name": "Wheezy",
+            "number": "7"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 188,
+        "url": "http:\/\/tools.swergroup.com\/downloads\/wheezy32.box",
+        "source": "",
+        "comment": "",
+        "creator": "2013-10-23",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Squeeze amd64 (Puppet 3.2.3, LXC)",
+        "version": {
+            "name": "Squeeze",
+            "number": "6"
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 106,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/67225617\/lxc-vagrant\/lxc-squeeze64-puppet3-2013-07-27.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-07-27",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Debian Wheezy amd64 (Puppet 3.2.3, LXC)",
+        "version": {
+            "name": "Wheezy",
+            "number": "7"
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 102,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/67225617\/lxc-vagrant\/lxc-wheezy64-puppet3-2013-07-27.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-07-27",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

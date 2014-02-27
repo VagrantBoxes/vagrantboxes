@@ -1,0 +1,49 @@
+[
+    {
+        "name": "OmniOS",
+        "version": {
+            "name": "",
+            "number": "r151002"
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 837,
+        "url": "http:\/\/omnios.omniti.com\/media\/omnios-latest.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

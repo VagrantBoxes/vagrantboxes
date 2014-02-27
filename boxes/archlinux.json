@@ -1,0 +1,425 @@
+[
+    {
+        "name": "Arch Linux",
+        "version": {
+            "name": "",
+            "number": "2013-08-01"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 578,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/31112574\/arch64-20130801.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Arch Linux",
+        "version": {
+            "name": "",
+            "number": "2013-08-17"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 575,
+        "url": "http:\/\/vagrant.srijn.net\/archlinux-x64-2013-08-17.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Archlinux",
+        "version": {
+            "name": "",
+            "number": "2011-08-19"
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 565,
+        "url": "http:\/\/iweb.dl.sourceforge.net\/project\/vagrantarchlinx\/2011.08.19\/archlinux_2011.08.19.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Arch Linux",
+        "version": {
+            "name": "",
+            "number": "2013-07-28"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 533,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/9213047\/arch64_2013-07-28.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Archlinux",
+        "version": {
+            "name": "",
+            "number": "2013-08-09"
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 512,
+        "url": "https:\/\/downloads.sourceforge.net\/project\/vagrant-archlinux\/vagrant-archlinux.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Arch Linux",
+        "version": {
+            "name": "",
+            "number": "2013-07-26"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 466,
+        "url": "http:\/\/iweb.dl.sourceforge.net\/project\/flowboard-vagrant-boxes\/arch64-2013-07-26-chef.box",
+        "source": "",
+        "comment": "Chef 11.6.0 from gem, Ruby from pacman",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": true,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Arch Linux",
+        "version": {
+            "name": "",
+            "number": "2013-07-26"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 433,
+        "url": "http:\/\/iweb.dl.sourceforge.net\/project\/flowboard-vagrant-boxes\/arch64-2013-07-26-minimal.box",
+        "source": "",
+        "comment": "Base install",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Arch Linux vanilla",
+        "version": {
+            "name": "",
+            "number": "2013-11"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 406,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/6750592\/Arch_Linux_2013.11_x64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Arch Linux x86_64 (2013-08)",
+        "version": {
+            "name": "",
+            "number": "2013-08"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 394,
+        "url": "https:\/\/googledrive.com\/host\/0B_BLFE4aPn5zUVpyaHdLanVnMTg\/vagrant-archlinux-2013-8.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

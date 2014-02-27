@@ -1,0 +1,2540 @@
+[
+    {
+        "name": "AppScale 1.12.0 (Ubuntu Precise 12.04 64-bit)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 1900,
+        "url": "http:\/\/download.appscale.com\/download\/AppScale%201.12.0%20VirtualBox%20Image",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu precise 64 (Ruby 1.9.3 & Chef 10.12)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 892,
+        "url": "https:\/\/dl.dropbox.com\/u\/14292474\/vagrantboxes\/precise64-ruby-1.9.3-p194.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": true,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server raring 13.04 amd64 (ruby-2.0.0-247 only) MySQL headers already included for building mysql2 extension",
+        "version": {
+            "name": "Raring",
+            "number": "13.04"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 729,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/o5i10hcu57jamg8\/ubuntu64-ruby2.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": true,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server raring 13.04 amd64 (ruby 1.9.3, puppet, guest additions)",
+        "version": {
+            "name": "Raring",
+            "number": "13.04"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 644,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/547671\/thinkstack-raring64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": true,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server Precise 12.04.3 amd64 (source) Kernel is ready for Docker (Docker not included)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04.3"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 612,
+        "url": "https:\/\/oss-binaries.phusionpassenger.com\/vagrant\/boxes\/ubuntu-12.04.3-amd64-vmwarefusion.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Lucid32 lampp, mongodb, git, lithium, rockmongo",
+        "version": {
+            "name": "Lucid",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 568,
+        "url": "http:\/\/www.hitarthindia.com\/VM\/lampp-mongo-git-lithium-rock.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": true,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": true,
+                "python": false
+            },
+            "database": {
+                "mysql": true,
+                "mongodb": true
+            },
+            "vcs": {
+                "git": true,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.04.1 LTS x86_64 (Guest Additions 4.1.18)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04.1 LTS"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 568,
+        "url": "http:\/\/dl.dropbox.com\/u\/1537815\/precise64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Lucid32 lampp, mongodb, git",
+        "version": {
+            "name": "Precise",
+            "number": "12.04.1 LTS"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 566,
+        "url": "http:\/\/www.hitarthindia.com\/VM\/lampp-mongo-git.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server Precise 12.04.3 amd64 (source) Kernel is ready for Docker (Docker not included)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04.3"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 547,
+        "url": "https:\/\/oss-binaries.phusionpassenger.com\/vagrant\/boxes\/ubuntu-12.04.3-amd64-vbox.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 13.10 amd64 for VMWare (with Chef, ruby1.9.3 and vmware-tools)",
+        "version": {
+            "name": "",
+            "number": "13.10"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 536,
+        "url": "http:\/\/brennovich.s3.amazonaws.com\/saucy64_vmware_fusion.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": true,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": true,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Maverick 64",
+        "version": {
+            "name": "Maverick",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 515,
+        "url": "http:\/\/mathie-vagrant-boxes.s3.amazonaws.com\/maverick64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server 13.10 amd64 (Chef 11.8.0, VMware tools)",
+        "version": {
+            "name": "",
+            "number": "13.10"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 501,
+        "url": "http:\/\/shopify-vagrant.s3.amazonaws.com\/ubuntu-13.10_vmware.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": true,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server 13.04 x64 Raring Ringtail (VirtualBox Guest Additions 4.2.12, Chef 11.4.4, Puppet 2.7.18)",
+        "version": {
+            "name": "Raring",
+            "number": "13.04"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 498,
+        "url": "http:\/\/goo.gl\/Y4aRr",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": true,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server Precise 12.04 amd64 (Chef 11.8.0, VMware Tools)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 470,
+        "url": "http:\/\/shopify-vagrant.s3.amazonaws.com\/ubuntu-12.04_vmware.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": true,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server Precise 12.04.3 amd64 Kernel is ready for Docker (Docker not included)",
+        "version": {
+            "name": "Precise",
+            "number": "12.04.3"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 447,
+        "url": "http:\/\/nitron-vagrant.s3-website-us-east-1.amazonaws.com\/vagrant_ubuntu_12.04.3_amd64_vmware.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.04.2 Server amd64 for VMWare Fusion and Chef Omnibus 11",
+        "version": {
+            "name": "Precise",
+            "number": "12.04.2"
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 446,
+        "url": "http:\/\/grahamc.com\/vagrant\/ubuntu-12.04.2-server-amd64-vmware-fusion.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.04.2 Server i386 with VirtualBox Guest Additions v4.2.6, Chef Omnibus 11",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 428,
+        "url": "http:\/\/grahamc.com\/vagrant\/ubuntu-12.04.2-i386-chef-11-omnibus.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Raring Ringtail (13.04) i386 Minimal (minimal = rvm, ruby-2.0.0p247, gem, chef, puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 420,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/4387941\/vagrant-boxes\/ubuntu-13.04-mini-i386.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu precise 64 with some perl dependencies and few other essentials",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 413,
+        "url": "https:\/\/dl.dropbox.com\/u\/5595111\/precise64-kohadeps.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Raring 64 (13.04) Vanilla (source) (vanilla = no ruby, gem, chef, puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 405,
+        "url": "http:\/\/goo.gl\/ceHWg",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.10 Quantal x86_64 (Guest Additions 4.2.2)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 402,
+        "url": "https:\/\/github.com\/downloads\/roderik\/VagrantQuantal64Box\/quantal64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Ubuntu 12.04.2 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 400,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/ubuntu-server-12042-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu raring 64 VMWare",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 393,
+        "url": "https:\/\/s3.amazonaws.com\/life360-vagrant\/raring64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Severalnines ClusterControl, Database Cluster Deployment Scripts, VBox 4.2.10, Ubuntu 12.04 LTS (How-to)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 390,
+        "url": "https:\/\/googledrive.com\/host\/0B-J3zLLFd9HMLUhkckZBWi1xVlE\/s9s_clustercontrol.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 11.04 server amd64",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 390,
+        "url": "http:\/\/dl.dropbox.com\/u\/7490647\/talifun-ubuntu-11.04-server-amd64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server 12.04.1 i868 (VirtualBox 4.2.1)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 389,
+        "url": "http:\/\/dl.dropbox.com\/u\/4031118\/Vagrant\/ubuntu-12.04.1-server-i686-virtual.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server Precise 12.04.3 amd64 Kernel is ready for Docker (Docker not included)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 380,
+        "url": "http:\/\/nitron-vagrant.s3-website-us-east-1.amazonaws.com\/vagrant_ubuntu_12.04.3_amd64_virtualbox.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.04 amd64 for with raring kernel and docker 0.6.4",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 374,
+        "url": "http:\/\/bit.ly\/dockerprecise64",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.04.2 AMD64 (Chef 11 installed via Omnibus; VirtualBox 4.2.6; Standard Puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 372,
+        "url": "http:\/\/grahamc.com\/vagrant\/ubuntu-12.04-omnibus-chef.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 11.04 server i386",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 372,
+        "url": "http:\/\/dl.dropbox.com\/u\/7490647\/talifun-ubuntu-11.04-server-i386.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Opscode ubuntu 10.04",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 367,
+        "url": "http:\/\/opscode-vagrant-boxes.s3.amazonaws.com\/ubuntu10.04-gems.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server 12.10 amd64 Minimal (VirtualBox 4.2.6)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 354,
+        "url": "http:\/\/goo.gl\/wxdwM",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Raring 32 (13.04) Vanilla (source) (vanilla = no ruby, gem, chef, puppet)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 353,
+        "url": "http:\/\/goo.gl\/y79mW",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Ubuntu 12.04.2 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 352,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/ubuntu-server-12042-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 10.04.4 LTS Lucid x86_64 (Apache 2.2.14, PHP 5.3.2, MySQL 5.1.66)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 343,
+        "url": "https:\/\/dl.dropbox.com\/u\/14741389\/vagrantboxes\/lucid64-lamp.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 12.04 daily Cloud Image amd64 (VirtualBox 4.1.12)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 341,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/precise\/current\/precise-server-cloudimg-amd64-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 12.04 daily Cloud Image i386 (VirtualBox 4.1.12)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 329,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/precise\/current\/precise-server-cloudimg-i386-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu precise 64 VirtualBox",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 323,
+        "url": "http:\/\/files.vagrantup.com\/precise64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Ubuntu 10.04.4 x86_64, VBox 4.2.10 (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 323,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/ubuntu-server-10044-x64-vbox4210.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu precise 64 VMWare",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VMware",
+        "size": 321,
+        "url": "http:\/\/files.vagrantup.com\/precise64_vmware.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Puppetlabs Ubuntu 10.04.4 x86_64, VBox 4.2.10, No Puppet or Chef (src)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 313,
+        "url": "http:\/\/puppet-vagrant-boxes.puppetlabs.com\/ubuntu-server-10044-x64-vbox4210-nocm.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 13.10 daily Cloud Image amd64 (Development release, No Guest Additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 309,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/saucy\/current\/saucy-server-cloudimg-amd64-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 13.10 daily Cloud Image i386 (Development release, No Guest Additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 309,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/saucy\/current\/saucy-server-cloudimg-i386-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 13.04 daily Cloud Image i386 (No Guest Additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 305,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/raring\/current\/raring-server-cloudimg-i386-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 13.04 daily Cloud Image amd64 (No Guest Additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 303,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/raring\/current\/raring-server-cloudimg-amd64-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu precise 32 VirtualBox",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 299,
+        "url": "http:\/\/files.vagrantup.com\/precise32.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 12.10 daily Cloud Image i386 (No Guest Additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 299,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/quantal\/current\/quantal-server-cloudimg-i386-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Official Ubuntu 12.10 daily Cloud Image amd64 (No Guest Additions)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 298,
+        "url": "http:\/\/cloud-images.ubuntu.com\/vagrant\/quantal\/current\/quantal-server-cloudimg-amd64-vagrant-disk1.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu lucid 64",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 280,
+        "url": "http:\/\/files.vagrantup.com\/lucid64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu Server 12.04 amd64 (with Puppet, Chef and VirtualBox 4.2.1)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 267,
+        "url": "http:\/\/goo.gl\/8kWkm",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu lucid 32",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 261,
+        "url": "http:\/\/files.vagrantup.com\/lucid32.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.04 amd64 for vagrant-lxc with Puppet 3.1.1",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 94,
+        "url": "http:\/\/dl.dropbox.com\/u\/13510779\/lxc-precise-amd64-2013-07-12.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 12.10 amd64 for vagrant-lxc with Puppet 3.1.1",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 94,
+        "url": "http:\/\/dl.dropbox.com\/u\/13510779\/lxc-quantal-amd64-2013-07-12.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Ubuntu 13.04 amd64 for vagrant-lxc with Puppet 3.1.1",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "Vagrant-LXC",
+        "size": 92,
+        "url": "http:\/\/dl.dropbox.com\/u\/13510779\/lxc-raring-amd64-2013-07-12.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

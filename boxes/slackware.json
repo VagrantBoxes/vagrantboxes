@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Slackware",
+        "version": {
+            "name": "",
+            "number": "13.37"
+        },
+        "architecture": "Unknown",
+        "provider": "VirtualBox",
+        "size": 2200,
+        "url": "http:\/\/dl.dropbox.com\/u\/10544201\/slackware-13.37.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

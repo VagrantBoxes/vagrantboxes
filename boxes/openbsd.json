@@ -1,0 +1,237 @@
+[
+    {
+        "name": "OpenBSD 5.2 (amd64) puppet chef pkg ports",
+        "version": {
+            "name": "",
+            "number": "5.2"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 889,
+        "url": "https:\/\/dl.dropbox.com\/s\/5ietqc3thdholuh\/openbsd-52-64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenBSD 5.3 64-bit",
+        "version": {
+            "name": "",
+            "number": "5.3"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 303,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/12089300\/VirtualBox\/openbsd53_amd64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenBSD 5.3 64-bit (Vagrant 1.2)",
+        "version": {
+            "name": "",
+            "number": "5.3"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 296,
+        "url": "https:\/\/dl.dropboxusercontent.com\/u\/12089300\/VirtualBox\/openbsd53_amd64_vagrant12.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenBSD 5.0 (amd64) puppet chef pkg ports",
+        "version": {
+            "name": "",
+            "number": "5.0"
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 279,
+        "url": "https:\/\/github.com\/downloads\/stefancocora\/openbsd_amd64-vagrant\/openbsd50_amd64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "OpenBSD 5.0 (i386) puppet chef pkg ports",
+        "version": {
+            "name": "",
+            "number": "5.0"
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 266,
+        "url": "https:\/\/github.com\/downloads\/stefancocora\/openbsd_i386-vagrant\/openbsd50_i386.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]

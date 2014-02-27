@@ -1,0 +1,284 @@
+[
+    {
+        "name": "Gentoo i686 (32bit) (Puppet, Chef, VirtualBox 4.2.6)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 717,
+        "url": "https:\/\/seedrs.box.com\/shared\/static\/6cg94mkdtuz3baoy8zl8.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-02-14",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Gentoo amd64 (chef, puppet) [src]",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 416,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/qubuaqiizvfpsyx\/gentoo-20131024-amd64.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-10-24",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Gentoo i686 (chef, puppet) [src]",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "32-bit",
+        "provider": "VirtualBox",
+        "size": 413,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/xfl63k64zliixid\/gentoo-20131029-i686.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-10-29",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": true,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Gentoo 2013.05 amd64 (Chef omnibus 11.4.4, VirtualBox 4.2.12)",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 357,
+        "url": "https:\/\/lxmx-vm.s3.amazonaws.com\/vagrant\/boxes\/lxmx_gentoo-2013.05_chef-11.4.4.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-05",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": true,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Gentoo amd64 minimal [src]",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 279,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/mfurnvstqoj8w47\/gentoo-20131024-amd64-minimal.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-10-24",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    },
+    {
+        "name": "Gentoo amd64 minimal [src]",
+        "version": {
+            "name": "",
+            "number": ""
+        },
+        "architecture": "64-bit",
+        "provider": "VirtualBox",
+        "size": 266,
+        "url": "https:\/\/dl.dropboxusercontent.com\/s\/0e23qmbo97wb5x2\/gentoo-20131029-i686-minimal.box",
+        "source": "",
+        "comment": "",
+        "creator": "",
+        "created": "2013-10-29",
+        "features": {
+            "guest_additions": false,
+            "vmware_tools": false,
+            "puppet": false,
+            "chef": false,
+            "webserver": {
+                "apache": false,
+                "lighttpd": false,
+                "nginx": false
+            },
+            "interpreters": {
+                "ruby": false,
+                "php": false,
+                "python": false
+            },
+            "database": {
+                "mysql": false,
+                "mongodb": false
+            },
+            "vcs": {
+                "git": false,
+                "svn": false,
+                "hg": false
+            }
+        },
+        "hash": {
+            "md5sum": "",
+            "sha1sum": "",
+            "sha256sum": "",
+            "sha384sum": "",
+            "sha512sum": ""
+        }
+    }
+]
