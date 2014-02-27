@@ -151,7 +151,7 @@ module.exports = function (grunt) {
       options: {
           base: 'dist'
       },
-      src: ['**']
+      src: ['**', '.nojekyll']
     },
 
     // Renames files for browser caching purposes
