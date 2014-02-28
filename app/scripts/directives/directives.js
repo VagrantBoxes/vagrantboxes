@@ -37,26 +37,3 @@ directives.directive('picker', function($compile, $timeout) {
         }
     };
 });
-
-directives.directive('directive2', function($compile) {
-    return function preLink(scope, iElement, iAttrs) {
-        console.log('postlink2');
-    }
-    return {
-        restrict : 'A',
-        link: function(scope, element, attrs) {
-            console.log('sp2 link');
-        },
-        compile : function(tele, tattr) {
-            console.log("sp2 compile");
-            return {
-                pre : function(scope, iele, iattr) {
-                    console.log("sp2 compile pre");
-                },
-                post : function(scope, iele, iattr) {
-                    console.log("sp2 compile post");
-                }
-            };
-        }
-    };
-});
